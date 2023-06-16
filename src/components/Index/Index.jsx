@@ -2,6 +2,7 @@ import Carousell from '../Carousel/Carousel'
 import React from 'react'
 import './style.css'
 import Arte from '../ArteDeIluminar/Arte'
+import ObrasDestacadas from '../ObrasDestacadas/ObrasDestacadas'
 function Index() {
   return (
     <div>
@@ -10,6 +11,10 @@ function Index() {
         </section>
         <div className='arte-ilum'>
         <Arte></Arte>
+        </div>
+        <div className='obras-destac'>
+          <ObrasDestacadas/>
+
         </div>
         </div>
   )
