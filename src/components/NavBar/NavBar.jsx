@@ -14,7 +14,8 @@ function NavBar() {
                 <Nav.Link href="#pricing">Pricing</Nav.Link>
               </Nav>
             </Container>
-          </Navbar></div>
+          </Navbar>
+    </div>
   )
 }
 
