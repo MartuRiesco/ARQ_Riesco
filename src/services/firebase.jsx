@@ -9,7 +9,7 @@ import {
     doc,
     getDoc,
   } from 'firebase/firestore';
-const firebaseConfig = {
+  const firebaseConfig = {
     apiKey: "AIzaSyA4PjlsnnSjT0XysPvy-JZmvO49nRIXYN8",
     authDomain: "iluminacionrie.firebaseapp.com",
     projectId: "iluminacionrie",
@@ -18,13 +18,29 @@ const firebaseConfig = {
     appId: "1:854672234068:web:bc3666a1d8f5c6d1e23fc1"
   };
   const app = initializeApp(firebaseConfig);
+  
 const db = getFirestore(app);
-  export async function getObrasDestacadas() {
-    const coleccionProductos = collection(db, 'obras_destacadas');
+console.log(db);
+/* export async function getObrasDestacadas() {
+    const coleccionProductos = collection(db,'obras_destacadas');
     
     let snapshotProductos = await getDocs(coleccionProductos);
     const documents = snapshotProductos.docs;
     const dataProductos = documents.map((doc) => ({ ...doc.data(), id: doc.id }));
+  
     return dataProductos; 
-  }
-  console.log(coleccionProductos);
+    
+  } */
+  export async function getObrasDestacadas() {
+    const coleccionProductos = collection(db,'obras_destacadas');
+  let snapshotProducts= await getDocs(coleccionProductos)
+  const documents= snapshotProducts.docs;
+   const dataProducts= documents.map(doc=>doc.data())
+   console.log(dataProducts);
+ return dataProducts
+};
+
+  
+
+
+  
