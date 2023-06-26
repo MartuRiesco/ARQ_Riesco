@@ -10,7 +10,7 @@ function Arte() {
                 <h2>El <span className='titulo-arte'>arte </span> de la iluminación</h2>
                 </div>
                 <div className='descrip-titulo'>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore accusantium blanditiis ducimus. Nemo, perspiciatis sapiente? Nihil cum, libero temporibus iste quisquam placeat minima! Reprehenderit quis, harum quibusdam corporis laboriosam assumenda.
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore accusantium blanditiis ducimus. Nemo, perspiciatis sapiente? Nihil cum, libero temporibus iste quisquam placeat minima! Reprehenderit quis, harum quibusdam corporis laboriosam assumenda
                     </p>
                 </div>
                 <div className='boton-arte'>
