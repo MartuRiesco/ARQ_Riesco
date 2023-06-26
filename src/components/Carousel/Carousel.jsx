@@ -33,9 +33,9 @@ function Carousell() {
             data={data}
             time={2000}
             width="100vw"
-            height="500px"
+            height="700px"
             captionStyle={captionStyle}
-            radius="10px"
+            radius="0px"
             slideNumber={false}
             slideNumberStyle={slideNumberStyle}
             captionPosition="bottom"

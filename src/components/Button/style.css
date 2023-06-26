@@ -1,5 +1,6 @@
 .button {
     color: white;
+    background-color: transparent;
     border-style: none;
     text-align: initial;
     padding: 0;
