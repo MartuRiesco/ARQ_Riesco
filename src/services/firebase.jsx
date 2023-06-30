@@ -36,7 +36,6 @@ console.log(db);
   let snapshotProducts= await getDocs(coleccionProductos)
   const documents= snapshotProducts.docs;
    const dataProducts= documents.map(doc=>doc.data())
-   console.log(dataProducts);
  return dataProducts
 };
 

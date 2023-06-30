@@ -17,8 +17,8 @@ function Contacto() {
           </h2>
           <hr />
           <p className='descripcion-contacto'>
-          Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit,
-          sed do eiusmod tempor <br />incididunt ut labore et dolore magna aliqua.
+          Podés contactarte con nosotros por los siguientes<br /> medios de Lunes a Viernes de 10 a 18hs 
+        
           </p>
           <h3 className='ubicacion-contacto'>
             Buenos Aires, Argentina

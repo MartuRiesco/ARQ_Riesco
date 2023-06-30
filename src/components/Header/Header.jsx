@@ -9,7 +9,7 @@ function Header() {
     navRef.current.classList.toggle('responsive_nav');
   };
   return (
-    <header>
+    <header className='header'>
     <div className="header__content container">
       <div className="header__content-logo">
         <Link to="/">

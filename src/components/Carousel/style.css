@@ -125,3 +125,31 @@
  color: white;
 }
 
+@media screen and (min-width: 320px) and (max-width: 420px) {
+	.slider{
+		height: 200px;
+		width: 100vw;
+	}
+	.titulo-carousel{
+		font-size: 15px;
+		left: 90px;
+	}
+	.descripcion-carousel{
+		font-size: 8px;
+		left: 90px;
+		top:30%
+	}
+	.boton-carousel{
+		font-size: 6px;
+		width: 70px;
+		height: 20px;
+		left: 88px;
+		top: 60%;
+	}
+	.slider a.previousButton{
+		left: 10px;
+	}
+	.slider a.nextButton {
+		right: 10px;
+	}
+}
