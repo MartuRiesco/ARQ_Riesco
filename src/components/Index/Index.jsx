@@ -2,6 +2,7 @@ import Carousell from '../Carousel/Carousel'
 import React from 'react'
 import './style.css'
 import Arte from '../ArteDeIluminar/Arte'
+import Obras from '../Obras/Obras'
 function Index() {
   return (
     <div>
@@ -11,6 +12,7 @@ function Index() {
         <div className='arte-ilum'>
         <Arte></Arte>
         </div>
+        <Obras></Obras>
         </div>
   )
 }
