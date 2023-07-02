@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import Carousell from '../Carousel/Carousel'
 import './style.css'

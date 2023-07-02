@@ -3,71 +3,87 @@
     src: url(../../Fonts/Montserrat-Italic.ttf);
 }
 
+.container-arte-de-iluminar {
+    margin: 100px 0;
+}
 
-.arte-de-iluminar{
+.arte-de-iluminar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 150px;
 
 }
-.imagen-arte{
+
+.imagen-arte {
     height: 400px;
     width: 400px;
     border-radius: 400px;
-   position: relative;
+    position: relative;
 }
-.titulo{
+
+.titulo {
     font-size: 20px;
     color: white;
     width: 200px;
     font-weight: 500;
+    margin-bottom: 40px;
 }
-.descrip-titulo{
+
+.descrip-titulo {
     width: 500px;
     color: white;
     font-family: 'monserrat-it';
     line-height: 2;
 }
-.lado-a{
+
+.lado-a {
     text-align: initial;
 }
-.boton-arte{
+
+.boton-arte {
     margin-top: 40px;
 }
-.blur-arte{
+
+.blur-arte {
     background-color: rgb(255, 223, 159);
     position: absolute;
-    top: 120%;
+    top: 110%;
     left: 65%;
     width: 300px;
     height: 300px;
     filter: blur(100px);
     border-radius: 400px;
 }
-.titulo-arte{
-font-family: 'monserrat-it';
+
+.titulo-arte {
+    font-family: 'monserrat-it';
 }
-.hide{display: none;}
-.show{
-    display: block;
-}
+
+.hide { display: none; }
+.show { display: block; }
+
 @media screen and (min-width: 320px) and (max-width: 420px) {
-    .arte-de-iluminar{
+    
+    .arte-de-iluminar {
         flex-direction: column;
         margin: 70px 15px;
     
     }
-    .titulo{
+
+    .titulo {
         font-size: 15px;
     }
-    .descrip-titulo{
+
+    .descrip-titulo {
         width: 250px;
         font-size: 10px;
 
     }
-    .imagen-arte{
+
+    .imagen-arte {
         height: 150px;
         width: 150px;
     }
+
 }

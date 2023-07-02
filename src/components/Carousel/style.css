@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'montserrat-th';
-    src: url('../../Fonts/Montserrat-Thin.ttf');
+    font-family: 'montserrat-medium';
+    src: url('../../Fonts/Montserrat-Medium.ttf');
 }
 @font-face {
     font-family: 'montserrat-bold';
@@ -10,16 +10,17 @@
 .slider {
 	position: relative;
 	width: 100%;
-	height: 620px;
-	overflow: hidden
+	height: 650px;
+	overflow: hidden;
 }
+
 .next, .prev{
 	margin:0;
 	padding: 0;
-	
 }
+
 .slider a.previousButton, .slider a.nextButton {
-	font-size: 22px;
+	font-size: 2rem;
 	line-height: 0;
 	display: block;
 	position: absolute;
@@ -33,7 +34,6 @@
 	text-decoration: none;
 	-webkit-backface-visibility: hidden;
 	        backface-visibility: hidden
-	/* prevent jump effect when scaling */
 }
 
 .slider a.previousButton:not(.disabled):hover, .slider a.nextButton:not(.disabled):hover {
@@ -80,13 +80,13 @@
 }
 
 .slide.animateIn,
-	.slide.animateOut {
+.slide.animateOut {
 	-webkit-transition: all 2s ease;
 	transition: all 2s ease;
 }
 
 .slide.animateIn.previous,
-		.slide.animateIn.next {
+.slide.animateIn.next {
 	left: 0;
 	visibility: visible;
 }
@@ -98,31 +98,35 @@
 .slide.animateOut.next {
 	left: -100%;
 }
-.center{
-    color: white;
-    
-   
+
+.center {
+    color: white;  
 }
-.titulo-carousel{
+
+.titulo-carousel {
     font-family: 'montserrat-bold';
     position: absolute;
     left:145px;
     top: 40%;
     font-size:80px;
-
 }
-.descripcion-carousel{
-    font-family: 'montserrat-th';
-    top: 40%; 
+
+.descripcion-carousel {
+    font-family: 'montserrat-medium';
+	text-transform: uppercase;
+    top: 35%; 
     position: absolute;
     left:150px;
+	font-size: 1rem;
 }
-.boton-carousel{
+
+.boton-carousel {
  background-color: black;
- top: 70%;
+ top: 60%;
  position: absolute;
  left:150px;
  color: white;
+ padding: 15px 40px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 420px) {

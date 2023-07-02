@@ -14,6 +14,8 @@ import { getFirestore, getDocs, collection } from 'firebase/firestore';
 
   const app = initializeApp(firebaseConfig);
   const db = getFirestore(app);
+
+  
   export async function getObrasDestacadas() {
       const coleccionProductos = collection(db,'obras_destacadas');
       let snapshotProducts= await getDocs(coleccionProductos)

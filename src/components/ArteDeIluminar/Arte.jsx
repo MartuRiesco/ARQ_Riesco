@@ -11,7 +11,7 @@ function Arte() {
   };
   const buttonLabel = Text ? 'Leer menos' : 'Saber Más';
   return (
-    <div>
+    <div className='container-arte-de-iluminar'>
         <div className='arte-de-iluminar'>
             <section className='lado-a'>
                 <div className='titulo'>
@@ -19,11 +19,11 @@ function Arte() {
                 </div>
                 
                 <div className='descrip-titulo'>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore accusantium blanditiis ducimus. Nemo, perspiciatis sapiente? Nihil cum, libero temporibus iste quisquam placeat minima! Reprehenderit quis, harum quibusdam corporis laboriosam assumenda.
+                    <p>La iluminación se ha convertido en un recurso de diseño y un medio multifacético que ha permitido a la arquitectura romper esquemas y trascender en el plano sensorial más allá del funcionamiento. 
                     </p>
                     {
                       Text && (<p >
-                      La iluminación se ha convertido en un recurso de diseño y un medio multifacético que ha permitido a la arquitectura romper esquemas y trascender en el plano sensorial más allá del funcionamiento. Permite diferenciar o acentuar usos, recorridos, formas, colores y texturas de los edificios y su entorno, como también la creación de nuevos escenarios.
+                      Permite diferenciar o acentuar usos, recorridos, formas, colores y texturas de los edificios y su entorno, como también la creación de nuevos escenarios.
                     </p>)
 
                     }
