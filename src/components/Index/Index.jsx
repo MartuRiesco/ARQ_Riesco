@@ -11,11 +11,11 @@ function Index() {
             <Carousell/>
         </section>
 
-        <div className='arte-ilum'>
+        <div className='arte-ilum container'>
             <Arte></Arte>
         </div>
 
-        <div className='obras-destacadas'>
+        <div className='obras-destacadas container'>
           <ObrasDestacadas />
         </div>
 

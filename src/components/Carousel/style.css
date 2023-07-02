@@ -7,6 +7,7 @@
     src: url('../../Fonts/Montserrat-Bold.ttf');
 }
 
+
 .slider {
 	position: relative;
 	width: 100%;
@@ -100,7 +101,9 @@
 }
 
 .center {
-    color: white;  
+    color: white;
+	max-width: 1400px;
+	margin: 0 auto;
 }
 
 .titulo-carousel {
@@ -108,7 +111,7 @@
     position: absolute;
     left:145px;
     top: 40%;
-    font-size:80px;
+    font-size:3rem;
 }
 
 .descripcion-carousel {
@@ -121,12 +124,27 @@
 }
 
 .boton-carousel {
- background-color: black;
- top: 60%;
- position: absolute;
- left:150px;
- color: white;
- padding: 15px 40px;
+	font-family: 'montserrat-medium';
+	background-color: black;
+	top: 57%;
+	position: absolute;
+	left:150px;
+	color: white;
+	padding: 15px 40px;
+	font-size: .8rem;
+	letter-spacing: 1.1px;
+	display: flex;
+}
+
+.boton-carousel:hover {
+	font-family: 'montserrat-bold';
+	background-color: white;
+	color: black;
+}
+
+.arrow {
+	font-size: 1rem;
+	margin-left: 10px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 420px) {

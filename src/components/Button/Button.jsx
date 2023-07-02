@@ -3,10 +3,13 @@
 import React from 'react'
 import './style.css'
 
-function Button({onClick,props}) {
+function Button({ onClick, props }) {
    return (
-   
-    <div><button  className='button' onClick={onClick} >{props}</button></div>
+      
+      <div>
+          <button  className='button' onClick={onClick}> { props } </button>
+      </div>
+
   )
 }
 

@@ -21,10 +21,13 @@ function Arte() {
                 <div className='descrip-titulo'>
                     <p>La iluminación se ha convertido en un recurso de diseño y un medio multifacético que ha permitido a la arquitectura romper esquemas y trascender en el plano sensorial más allá del funcionamiento. 
                     </p>
+                    
                     {
-                      Text && (<p >
+                      Text && (
+                      <p>
                       Permite diferenciar o acentuar usos, recorridos, formas, colores y texturas de los edificios y su entorno, como también la creación de nuevos escenarios.
-                    </p>)
+                      </p>
+                      )
 
                     }
                    

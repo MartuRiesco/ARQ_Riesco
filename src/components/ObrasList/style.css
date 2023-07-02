@@ -1,7 +1,3 @@
-.obras {
-    margin: 2rem 0 2rem;
-}
-
 .obras__content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

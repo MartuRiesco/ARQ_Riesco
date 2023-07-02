@@ -70,8 +70,8 @@ async function getItemsFromDatabase() {
     }, [idCategory]);
   
     return (
-      <div className='container'>
-        <div className='producto'>
+      <div>
+        <div>
             <ObrasList users={ users } />
         </div>
       </div>

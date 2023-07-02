@@ -8,7 +8,7 @@ function App() {
   
   return (
      <BrowserRouter>
-        <div className='app'>
+        <div>
             <Header/>
               <main>
                   <Routes>

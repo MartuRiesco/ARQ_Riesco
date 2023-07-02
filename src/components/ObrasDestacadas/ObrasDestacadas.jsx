@@ -20,7 +20,7 @@ function ObrasDestacadas() {
     return(
         <div className='container_obras_destacadas'>
             <div className='obras__destacadas-title'>
-                <h1>Obras destacadas</h1>
+                <h1>Obras Destacadas</h1>
             </div>
             <div className='obras__destacadas-content'>
                     {Datos.map((user) => (

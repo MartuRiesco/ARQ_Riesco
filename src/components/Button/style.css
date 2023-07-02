@@ -4,11 +4,8 @@
     background-color: black;
     border-color: black;
     border-style: none;
-    text-align: initial;
-    padding-bottom: 10px;
 }
 
 .button:hover { 
     border-bottom: 2px solid white;
-    padding-bottom: 10px;
 }
