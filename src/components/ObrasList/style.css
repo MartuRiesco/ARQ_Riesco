@@ -23,6 +23,10 @@
     text-align: left;
 }
 
+.obras__content-img > img {
+    width: 500px;
+}
+
 .obras__content-img > h4 {
     font-size: 1rem;
     font-weight: 300;

@@ -2,6 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import './style.css';
+import Button from "../Button/Button";
 
 export default function ObrasList({ users }) {
   return (
@@ -12,8 +13,7 @@ export default function ObrasList({ users }) {
                     <img src={user.img} alt={user.title} />
                     <div className='obras__content-title'>
                         <h1>{user.title}</h1>
-                        <p>{user.description}</p>
-                        <p>{user.button}</p>
+                        <Button props={'Ver proyecto'}/>
                     </div>
                        
                 </div>
