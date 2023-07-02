@@ -1,6 +1,5 @@
-/* eslint-disable no-unused-vars */
-import Carousell from '../Carousel/Carousel'
 import React from 'react'
+import Carousell from '../Carousel/Carousel'
 import './style.css'
 import Arte from '../ArteDeIluminar/Arte'
 import Obras from '../Obras/Obras'
@@ -13,7 +12,9 @@ function Index() {
         <div className='arte-ilum'>
         <Arte></Arte>
         </div>
-        <Obras></Obras>
+        <div className='obras-destac'>
+            <Obras />
+        </div>
         </div>
   )
 }

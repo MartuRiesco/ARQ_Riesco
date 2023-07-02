@@ -25,7 +25,6 @@
 }
 .descrip-titulo{
     width: 500px;
-   
     color: white;
     font-family: 'monserrat-it';
     line-height: 2;
@@ -39,8 +38,8 @@
 .blur-arte{
     background-color: rgb(255, 223, 159);
     position: absolute;
-    top: 820px;
-    left: 1000px;
+    top: 120%;
+    left: 65%;
     width: 300px;
     height: 300px;
     filter: blur(100px);
@@ -48,4 +47,27 @@
 }
 .titulo-arte{
 font-family: 'monserrat-it';
+}
+.hide{display: none;}
+.show{
+    display: block;
+}
+@media screen and (min-width: 320px) and (max-width: 420px) {
+    .arte-de-iluminar{
+        flex-direction: column;
+        margin: 70px 15px;
+    
+    }
+    .titulo{
+        font-size: 15px;
+    }
+    .descrip-titulo{
+        width: 250px;
+        font-size: 10px;
+
+    }
+    .imagen-arte{
+        height: 150px;
+        width: 150px;
+    }
 }
