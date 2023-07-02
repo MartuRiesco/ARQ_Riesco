@@ -7,16 +7,16 @@ function App() {
   
   return (
      <BrowserRouter>
-    <div className='app'>
-      <Header/>
-      <main>
-        <Routes>
-          <Route path='/' element={<Index/>}></Route>
-          <Route path="/obras" element={<Obras/>}></Route>
-        </Routes>
-      </main>
-    </div>
-    </BrowserRouter>
+        <div className='app'>
+            <Header/>
+              <main>
+                  <Routes>
+                      <Route path='/' element={<Index/>}></Route>
+                      <Route path="/obras" element={<Obras/>}></Route>
+                  </Routes>
+              </main>
+        </div>
+      </BrowserRouter>
       
     
   )
