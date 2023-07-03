@@ -6,6 +6,7 @@
     border-style: none;
 text-align: initial;
 padding: 0;
+margin: 10px;
 }
 .button:hover{
     border-bottom: solid;

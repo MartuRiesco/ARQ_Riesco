@@ -1,6 +1,10 @@
-#root {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }*
+ #root {
   max-width: 1920px;
-
+overflow: hidden;
   text-align: center;
   
 }

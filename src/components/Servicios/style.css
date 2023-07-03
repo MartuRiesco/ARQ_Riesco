@@ -1,0 +1,24 @@
+.servicios{
+    margin: 20px;
+    font-family: 'montserrat-th';
+    color: white;
+}
+.servicio-titulo{
+    font-size: 70px;
+}
+.servicios-cont{
+    margin: 40px 0 20px 0;
+    width: 50%;
+    padding: 10px 20px 60px 60px;
+    border-bottom: solid;
+    border-left: solid;
+    border-left-color: white;
+    border-bottom-color: white;
+    text-align: center;
+    border-width: 1px;
+    display: inline-block;
+}
+.titulo-servicios-cont{
+    margin: 20px;
+   font-family: 'montserrat-semibold';
+}

@@ -4,12 +4,7 @@ import Button from '../Button/Button'
 import { useState } from 'react'
 
 function Arte() {
-  const [Text, setText] = useState(false);
-  const handleBotonClick = () => {
-    setText(!Text);
-  };
-  const buttonLabel = Text ? 'Leer menos' : 'Saber Más';
-  return (
+    return (
     <div>
         <div className='arte-de-iluminar'>
             <section className='lado-a'>
@@ -20,17 +15,12 @@ function Arte() {
                 <div className='descrip-titulo'>
                     <p>
                       La luz artificial ha dejado de verse como una simple herramienta utilizada exclusivamente para proveer la cantidad de luz indispensable que permite ejecutar una actividad funcional. 
-                    </p>
-                    {
-                      Text && (<p >
-                      La iluminación se ha convertido en un recurso de diseño y un medio multifacético que ha permitido a la arquitectura romper esquemas y trascender en el plano sensorial más allá del funcionamiento. Permite diferenciar o acentuar usos, recorridos, formas, colores y texturas de los edificios y su entorno, como también la creación de nuevos escenarios.
-                    </p>)
-
-                    }
-                   
+                    </p>            
                    
                 <div className='boton-arte'>
-                   <Button props={buttonLabel} onClick={handleBotonClick}></Button>
+                   <Button info={<p >
+                      La iluminación se ha convertido en un recurso de diseño y un medio multifacético que ha permitido a la arquitectura romper esquemas y trascender en el plano sensorial más allá del funcionamiento. Permite diferenciar o acentuar usos, recorridos, formas, colores y texturas de los edificios y su entorno, como también la creación de nuevos escenarios.
+                    </p>}></Button>
                 </div>
                     
                 </div>

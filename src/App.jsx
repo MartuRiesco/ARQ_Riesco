@@ -4,6 +4,8 @@ import Header from './components/Header/Header'
 import Index from './components/Index/Index'
 import Obras from './components/Obras/Obras'
 import Contacto from './components/Contacto/Contacto'
+import Servicios from './components/Servicios/Servicios'
+
 function App() {
   
   return (
@@ -14,6 +16,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Index/>}></Route>
           <Route path="/obras" element={<Obras/>}></Route>
+          <Route path='/servicios' element={<Servicios/>}></Route>
           <Route path='/contacto' element={<Contacto/>}></Route>
         </Routes>
       </main>

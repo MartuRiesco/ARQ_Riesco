@@ -39,7 +39,13 @@ console.log(db);
  return dataProducts
 };
 
-  
+export async function getServicios() {
+  const coleccionProductos = collection(db,'servicios');
+let snapshotProducts= await getDocs(coleccionProductos)
+const documents= snapshotProducts.docs;
+ const dataProducts= documents.map(doc=>doc.data())
+return dataProducts
+};
 
 
   
