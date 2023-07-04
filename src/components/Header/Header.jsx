@@ -12,8 +12,8 @@ function Header() {
 };
 
     return (
-      <header className='header'>
-            <div className="header__content container">
+      <header className='heade container'>
+            <div className="header__content">
                 <div className="header__content-logo">
 
                       <Link to="/">

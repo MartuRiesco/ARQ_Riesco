@@ -111,7 +111,7 @@
     position: absolute;
     left:145px;
     top: 40%;
-    font-size:3rem;
+    font-size:5rem;
 }
 
 .descripcion-carousel {
@@ -147,30 +147,43 @@
 	margin-left: 10px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 420px) {
-	.slider{
-		height: 200px;
+@media screen and (min-width: 320px) and (max-width: 425px) {
+
+	.slider {
+		height: 300px;
 		width: 100vw;
 	}
-	.titulo-carousel{
-		font-size: 15px;
-		left: 90px;
+
+	.titulo-carousel {
+		font-size: 25px;
+		left: 60px;
+		width: 200px;
 	}
-	.descripcion-carousel{
+
+	.descripcion-carousel {
 		font-size: 8px;
-		left: 90px;
-		top:30%
+		left: 60px;
+		top: 35%
 	}
-	.boton-carousel{
-		font-size: 6px;
-		width: 70px;
-		height: 20px;
-		left: 88px;
-		top: 60%;
+
+	.boton-carousel {
+		top: 70%;
+		left: 60px;
+		color: white;
+		padding: 10px;
+		font-size: .5rem;
+		display: flex;
 	}
+
+	.arrow {
+		font-size: .5rem;
+		margin-left: 10px;
+	}
+
 	.slider a.previousButton{
 		left: 10px;
 	}
+	
 	.slider a.nextButton {
 		right: 10px;
 	}

@@ -63,8 +63,16 @@
 .hide { display: none; }
 .show { display: block; }
 
-@media screen and (min-width: 320px) and (max-width: 420px) {
-    
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .container-arte-de-iluminar {
+        margin: 40px 0;
+    }
+
+    .blur-arte {
+        display: none;
+    }
+
     .arte-de-iluminar {
         flex-direction: column;
         margin: 70px 15px;
@@ -72,18 +80,53 @@
     }
 
     .titulo {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .descrip-titulo {
-        width: 250px;
-        font-size: 10px;
+        max-width: 100%;
+        font-size: 16px;
 
     }
 
     .imagen-arte {
-        height: 150px;
-        width: 150px;
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+    .container-arte-de-iluminar {
+        margin: 0px 0;
+    }
+
+    .lado-b {
+        display: none;
+    }
+
+    .arte-de-iluminar {
+        flex-direction: column;
+        margin: 70px 15px;
+    
+    }
+
+    .titulo {
+        font-size: 18px;
+    }
+
+    .descrip-titulo {
+        max-width: 100%;
+        font-size: 16px;
+
+    }
+
+    .blur-arte {
+        display: none;
+    }
+
+    .imagen-arte {
+        display: none;
     }
 
 }

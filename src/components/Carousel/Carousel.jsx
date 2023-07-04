@@ -1,5 +1,4 @@
 /* eslint-disable no-unused-vars */
-import { Carousel } from 'react-carousel-minimal';
 import { useState, useEffect } from 'react';
 import Slider from 'react-animated-slider';
 import './style.css'

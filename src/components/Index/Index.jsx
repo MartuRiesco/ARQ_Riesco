@@ -15,7 +15,7 @@ function Index() {
             <Arte></Arte>
         </div>
 
-        <div className='obras-destacadas container'>
+        <div className='obras-destacadas'>
           <ObrasDestacadas />
         </div>
 

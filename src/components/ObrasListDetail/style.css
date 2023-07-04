@@ -4,8 +4,8 @@
 
 .detail__content-img {
     display: flex;
-    flex-direction: rows;
-    gap: 3rem;
+    flex-direction: column;
+    text-align: center;
 }
 
 .detail__content-title {
@@ -21,16 +21,20 @@
     letter-spacing: .05rem;
 }
 
-.detail__content-title > h4 {
+.detail__content-subtitle {
+    padding: 2rem;
     font-size: 1rem;
     font-weight: 300;
-    margin: 2rem 0;
+    margin: 4rem 0 0;
     color: var(--clr-terciario);
+    text-align: left;
 }
 
-.detail__content-title > p {
-    font-size: 2rem;
+.detail__content-parrafo {
+    padding: 2rem;
+    font-size: 4rem;
     font-weight: 500;
+    text-align: left;
 }
 
 .detail__content-title .stock {
@@ -63,4 +67,5 @@
     background-color: var(--clr-gris-claro);
     color: var(--clr-primario);
 }
+
 

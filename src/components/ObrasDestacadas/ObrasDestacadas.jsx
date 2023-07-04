@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import './style.css';
 import { getObrasDestacadas } from '../../services/firebase';
+import { Link } from "react-router-dom";
 
 function ObrasDestacadas() {
 
@@ -25,12 +26,14 @@ function ObrasDestacadas() {
             <div className='obras__destacadas-content'>
                     {Datos.map((user) => (
                         <div className='obras__destacadas-content-img' key={user.id}>
-                            <img src={user.img} alt={user.title} />
+                            <Link to={`/obras/${user.id}`}>
+                                    <img src={user.img} alt={user.title} />
+                            </Link>
                         </div>
                         
                     ))}
             </div>
-        </div>
+        </div>    
         )
 }
 

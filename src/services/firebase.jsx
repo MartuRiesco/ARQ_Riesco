@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore, getDocs, collection } from 'firebase/firestore';
+import { getFirestore, getDocs, getDoc, collection, doc } from 'firebase/firestore';
 
 
   const firebaseConfig = {
@@ -15,14 +15,27 @@ import { getFirestore, getDocs, collection } from 'firebase/firestore';
   const app = initializeApp(firebaseConfig);
   const db = getFirestore(app);
 
-  
   export async function getObrasDestacadas() {
       const coleccionProductos = collection(db,'obras_destacadas');
       let snapshotProducts= await getDocs(coleccionProductos)
       const documents= snapshotProducts.docs;
       const dataProducts= documents.map(doc=>doc.data())
       return dataProducts
-}
+  }
+
+  export async function getSingleItemFromDatabase(idItem) {
+  
+    const productsColectionRef = collection(db, "obras_destacadas");
+    const docRef = doc(productsColectionRef, idItem);
+  
+    
+    const docSnapshot = await getDoc(docRef);
+  
+    if (docSnapshot.exists() === false) 
+      throw new Error("No existe el documento") 
+  
+    return { ...docSnapshot.data(), id: docSnapshot.id };
+  }
 
 
 
