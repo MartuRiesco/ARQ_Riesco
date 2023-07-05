@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import Slider from 'react-animated-slider';
 import './style.css'
+import { Link } from 'react-router-dom';
 import { getObrasDestacadas } from '../../services/firebase';
 import { BsArrowRight } from "react-icons/bs";
 
@@ -28,9 +29,9 @@ function Carousell() {
                           <div className="center">
                             <h1 className='titulo-carousel'>{item.title}</h1>
                             <p className='descripcion-carousel'>{item.description}</p>
-                            <button className='boton-carousel'>
+                          <Link to={`/obras/${item.category}`}>  <button className='boton-carousel'>
                                 {item.button} <span className='arrow'><BsArrowRight/></span>
-                            </button>
+                            </button></Link>
                           </div>
 
                       </div>

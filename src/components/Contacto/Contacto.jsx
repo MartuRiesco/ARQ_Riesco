@@ -45,9 +45,6 @@ function Contacto() {
 
             </div>
           </div>
-
-
-
         </div>
         <div className='forms'>
           <Forms/>

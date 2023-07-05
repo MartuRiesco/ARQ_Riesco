@@ -1,20 +1,37 @@
+@font-face {
+    font-family: 'montserrat-light';
+    src: url(../../Fonts/Montserrat-Light.ttf);
+}
 .detail {
     margin-top: 2rem;
 }
-
+.mySwiper{
+    height: 100%;
+    width: 100%;
+}
 .detail__content-img {
     display: flex;
     flex-direction: column;
     text-align: center;
+   
+}
+.swiper-detail{
+    height: 400px;
+    width: auto;
 }
 
 .detail__content-title {
     padding: 2rem;
+    font-family: 'montserrat-light';
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+.imagen_detail{
+  
+    height: 100%;
+}
 .detail__content-title > h1 {
     font-size: 3rem;
     font-family: var(--ff-secundario);
