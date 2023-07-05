@@ -1,25 +1,27 @@
 @font-face {
-    font-family: 'montserrat-th';
-    src: url('../../Fonts/Montserrat-Thin.ttf');
+    font-family: 'montserrat-medium';
+    src: url('../../Fonts/Montserrat-Medium.ttf');
 }
 @font-face {
     font-family: 'montserrat-bold';
     src: url('../../Fonts/Montserrat-Bold.ttf');
 }
 
+
 .slider {
 	position: relative;
 	width: 100%;
-	height: 620px;
-	overflow: hidden
+	height: 650px;
+	overflow: hidden;
 }
+
 .next, .prev{
 	margin:0;
 	padding: 0;
-	
 }
+
 .slider a.previousButton, .slider a.nextButton {
-	font-size: 22px;
+	font-size: 2rem;
 	line-height: 0;
 	display: block;
 	position: absolute;
@@ -33,7 +35,6 @@
 	text-decoration: none;
 	-webkit-backface-visibility: hidden;
 	        backface-visibility: hidden
-	/* prevent jump effect when scaling */
 }
 
 .slider a.previousButton:not(.disabled):hover, .slider a.nextButton:not(.disabled):hover {
@@ -80,13 +81,13 @@
 }
 
 .slide.animateIn,
-	.slide.animateOut {
+.slide.animateOut {
 	-webkit-transition: all 2s ease;
 	transition: all 2s ease;
 }
 
 .slide.animateIn.previous,
-		.slide.animateIn.next {
+.slide.animateIn.next {
 	left: 0;
 	visibility: visible;
 }
@@ -98,57 +99,91 @@
 .slide.animateOut.next {
 	left: -100%;
 }
-.center{
+
+.center {
     color: white;
-    
-   
+	max-width: 1400px;
+	margin: 0 auto;
 }
-.titulo-carousel{
+
+.titulo-carousel {
     font-family: 'montserrat-bold';
     position: absolute;
     left:145px;
     top: 40%;
-    font-size:80px;
-
+    font-size:5rem;
 }
-.descripcion-carousel{
-    font-family: 'montserrat-th';
-    top: 40%; 
+
+.descripcion-carousel {
+    font-family: 'montserrat-medium';
+	text-transform: uppercase;
+    top: 35%; 
     position: absolute;
     left:150px;
-}
-.boton-carousel{
- background-color: black;
- top: 70%;
- position: absolute;
- left:150px;
- color: white;
+	font-size: 1rem;
 }
 
-@media screen and (min-width: 320px) and (max-width: 420px) {
-	.slider{
-		height: 200px;
+.boton-carousel {
+	font-family: 'montserrat-medium';
+	background-color: black;
+	top: 57%;
+	position: absolute;
+	left:150px;
+	color: white;
+	padding: 15px 40px;
+	font-size: .8rem;
+	letter-spacing: 1.1px;
+	display: flex;
+}
+
+.boton-carousel:hover {
+	font-family: 'montserrat-bold';
+	background-color: white;
+	color: black;
+}
+
+.arrow {
+	font-size: 1rem;
+	margin-left: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+
+	.slider {
+		height: 300px;
 		width: 100vw;
 	}
-	.titulo-carousel{
-		font-size: 15px;
-		left: 90px;
+
+	.titulo-carousel {
+		font-size: 25px;
+		left: 60px;
+		width: 200px;
 	}
-	.descripcion-carousel{
+
+	.descripcion-carousel {
 		font-size: 8px;
-		left: 90px;
-		top:30%
+		left: 60px;
+		top: 35%
 	}
-	.boton-carousel{
-		font-size: 6px;
-		width: 70px;
-		height: 20px;
-		left: 88px;
-		top: 60%;
+
+	.boton-carousel {
+		top: 70%;
+		left: 60px;
+		color: white;
+		padding: 10px;
+		font-size: .5rem;
+		display: flex;
 	}
+
+	.arrow {
+		font-size: .5rem;
+		margin-left: 10px;
+	}
+
 	.slider a.previousButton{
 		left: 10px;
 	}
+	
 	.slider a.nextButton {
 		right: 10px;
 	}

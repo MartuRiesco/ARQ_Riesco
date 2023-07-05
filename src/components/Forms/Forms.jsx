@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import './style.css'
 import {FiInstagram} from 'react-icons/fi'

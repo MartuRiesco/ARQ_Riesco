@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'montserrat-light';
+    src: url(../../Fonts/Montserrat-Light.ttf);
+}
+.detail {
+    margin-top: 2rem;
+}
+.mySwiper{
+    height: 100%;
+    width: 100%;
+}
+.detail__content-img {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+}
+.swiper-detail{
+    height: 400px;
+    width: auto;
+}
+
+.detail__content-title {
+    padding: 2rem;
+    font-family: 'montserrat-light';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagen_detail{
+  
+    height: 100%;
+}
+.detail__content-title > h1 {
+    font-size: 3rem;
+    font-family: var(--ff-secundario);
+    letter-spacing: .05rem;
+}
+
+.detail__content-subtitle {
+    padding: 2rem;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 4rem 0 0;
+    color: var(--clr-terciario);
+    text-align: left;
+}
+
+.detail__content-parrafo {
+    padding: 2rem;
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.detail__content-title .stock {
+    font-size: 1rem;
+    margin: 2rem 0;
+    color: var(--clr-terciario);
+    font-family: var(--ff-secundario);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+
+.detail__content-title span {
+    border-radius: 10px;
+    font-size: .8rem;
+    padding: 1rem;
+    letter-spacing: .15rem;
+    background-color: var(--clr-primario);
+    text-transform: uppercase;
+    color: var(--clr-secundario);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.detail__content-title span:hover {
+    background-color: var(--clr-gris-claro);
+    color: var(--clr-primario);
+}
+
+

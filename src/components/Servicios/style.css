@@ -1,10 +1,15 @@
 .servicios{
     margin: 20px;
-    font-family: 'montserrat-th';
+    font-family: 'montserrat-light';
     color: white;
 }
 .servicio-titulo{
     font-size: 70px;
+}
+.servicios_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .servicios-cont{
     margin: 40px 0 20px 0;
@@ -21,4 +26,18 @@
 .titulo-servicios-cont{
     margin: 20px;
    font-family: 'montserrat-semibold';
+}
+@media screen and (min-width: 320px) and (max-width: 420px) {
+.servicio-titulo{
+    font-size: 20px;
+}
+.servicios-cont{
+    padding: 0;
+    margin: 20px;
+    border: none;
+    font-size: 5px;
+    display: flex;
+    width: 100%;
+}
+
 }

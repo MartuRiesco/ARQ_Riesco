@@ -1,15 +1,17 @@
-.button{
+.button {
     color: white;
     font-family: 'montserrat-bold';
     background-color: black;
     border-color: black;
     border-style: none;
+<<<<<<< HEAD
 text-align: initial;
 padding: 0;
 margin: 10px;
+=======
+>>>>>>> 6fafe7aa0fdc0e8391fd02b2be5142201635d166
 }
-.button:hover{
-    border-bottom: solid;
-    border-radius: 0px;
-    border-color: white;
+
+.button:hover { 
+    border-bottom: 2px solid white;
 }
