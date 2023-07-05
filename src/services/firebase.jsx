@@ -21,6 +21,8 @@ import { getFirestore, getDocs, getDoc, collection, doc } from 'firebase/firesto
       const documents= snapshotProducts.docs;
       const dataProducts= documents.map(doc=>doc.data())
       return dataProducts
+
+      
   }
 
   export async function getSingleItemFromDatabase(idItem) {
