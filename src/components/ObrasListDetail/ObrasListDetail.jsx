@@ -29,6 +29,12 @@ function ObrasListDetail() {
           <div className='detail__content-img' key={user.id}>
               <div className='detail__content-title'>
                   <h1>{user.title}</h1>
+                  <hr className="hr" /><div>
+                <p className="detail-work">
+                  {user.work}
+                </p>
+              </div>
+              
               </div>
               <div className="swiper-detail"> <Swiper
      slidesPerView={'3'}
@@ -36,8 +42,8 @@ function ObrasListDetail() {
      spaceBetween={500}
      loop={true}
      pagination={{
-       clickable: true,
-     }}
+      clickable: true,
+    }}
      navigation={true}
         
        
@@ -50,17 +56,26 @@ function ObrasListDetail() {
         <SwiperSlide> <img src={user.img4} alt={user.title} className="imagen_detail" /></SwiperSlide>
         <SwiperSlide> <img src={user.img5} alt={user.title} className="imagen_detail" /></SwiperSlide>
         <SwiperSlide> <img src={user.img6} alt={user.title} className="imagen_detail" /></SwiperSlide>
-        <SwiperSlide> <img src={user.img1} alt={user.title} className="imagen_detail" /></SwiperSlide>
-        <SwiperSlide> <img src={user.img2} alt={user.title} className="imagen_detail" /></SwiperSlide>
+        <SwiperSlide> <img src={user.img7} alt={user.title} className="imagen_detail" /></SwiperSlide>
+        <SwiperSlide> <img src={user.img8} alt={user.title} className="imagen_detail" /></SwiperSlide>
+        <SwiperSlide> <img src={user.img9} alt={user.title} className="imagen_detail" /></SwiperSlide>
+        <SwiperSlide> <img src={user.img10} alt={user.title} className="imagen_detail" /></SwiperSlide>
       </Swiper>
                  
               </div>
               <div className='detail__content-subtitle'>
                   <h4>Descripción</h4>
-              </div>
               <div className='detail__content-parrafo'>
                   <p>{user.description}</p>  
+                  <hr className="hr2" />
               </div>       
+              </div>
+              <div className="detail_content-ubication">
+                <p>
+                  {user.ubication}
+                </p>
+
+              </div>
           </div>
   </div>
     ))}

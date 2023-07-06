@@ -29,7 +29,7 @@ function Carousell() {
                           <div className="center">
                             <h1 className='titulo-carousel'>{item.title}</h1>
                             <p className='descripcion-carousel'>{item.description}</p>
-                          <Link to={`/obras/${item.category}`}>  <button className='boton-carousel'>
+                          <Link to={`/obra/${item.category}`}>  <button className='boton-carousel'>
                                 {item.button} <span className='arrow'><BsArrowRight/></span>
                             </button></Link>
                           </div>

@@ -4,12 +4,19 @@ import React from 'react'
 import { useState } from 'react';
 import './style.css'
 
-function Button({info}) {
+function Button({info, label, year}) {
   const [Text, setText] = useState(false);
   const handleBotonClick = () => {
     setText(!Text);
   };
-  const buttonLabel = Text ? 'Leer menos' : 'Saber Más';
+ let buttonLabel
+  if (label===true) {
+    buttonLabel= year
+    
+  }else{
+     buttonLabel = Text ? 'Leer menos' : 'Saber Más';
+  }
+
    return (
    
     <> 
