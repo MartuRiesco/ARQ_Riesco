@@ -14,9 +14,9 @@
 .detail__content-img {
     display: flex;
     flex-direction: column;
-    text-align: center;
-   
+    text-align: center;  
 }
+
 .swiper-detail{
     height: 400px;
     width: auto;
@@ -30,28 +30,34 @@
     justify-content: center;
     align-items: center;
 }
+
 .detail-work{
     font-size: 20px;
 }
+
 .imagen_detail{
   
     height: 100%;
 }
+
 .detail__content-title > h1 {
     font-size: 3rem;
     font-family: var(--ff-secundario);
     letter-spacing: .05rem;
  
 }
+
 .hr{
     margin: 40px;
     width: 200px;
 }
+
 .hr2{
     margin-left: -70px;
     width: 700px; 
     margin-top: 30px;
 }
+
 .detail__content-subtitle {
     padding: 2rem;
     font-size: 1rem;
@@ -61,8 +67,8 @@
     text-align: left;
     border-left: solid;
     border-left-color: white;
- border-width: 1px;
- height: 200px;
+    border-width: 1px;
+    height: 200px;
 }
 
 .detail__content-parrafo {
