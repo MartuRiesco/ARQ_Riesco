@@ -25,6 +25,7 @@ function ObrasListDetail() {
   <div className='detail container'>
     {Users.map((user)=>(
   
+  // eslint-disable-next-line react/jsx-key
   <div className='detail__content'>
           <div className='detail__content-img' key={user.id}>
               <div className='detail__content-title'>
