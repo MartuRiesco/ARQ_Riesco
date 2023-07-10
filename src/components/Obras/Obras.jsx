@@ -3,8 +3,9 @@ import React, {useState, useEffect} from 'react';
 import { useParams } from "react-router-dom";
 import ObrasList from '../ObrasList/ObrasList';
 import './style.css';
+import { getObras, getYear } from '../../services/firebase';
 
-//----Import Firebase
+/* //----Import Firebase
 
 import { collection, getDocs, query, where } from "firebase/firestore";
 import { initializeApp } from "firebase/app";
@@ -46,28 +47,30 @@ async function getItemsFromDatabase() {
     const documents = snapshotProducts.docs;
     const dataProducts = documents.map((doc) => ({ ...doc.data(), id: doc.id }));
     return dataProducts;
-  }
+  } */
   
+
+
+
   function Obras() {
     const [users, setUsers] = useState([]);
   
     const params = useParams();
-    const idCategory = params.idCategory;
+    const idYear = params.idYear;
   
     async function leerDatos() {
-      if (idCategory === undefined) {
-        let respuesta = await getItemsFromDatabase();
-        setUsers(respuesta);
-      } else {
-        let respuesta = await getItemsByCategoryFromDatabase(idCategory);
-        setUsers(respuesta);
-      }
+      if (idYear === undefined){
+        let respuesta = await getObras();
+        setUsers(respuesta)
+    }else{
+        let respuesta =  await getYear(idYear);
+        setUsers(respuesta)
     }
-  
-    useEffect(() => {
-      leerDatos();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [idCategory]);
+ }      
+   useEffect(()=>{
+    leerDatos();
+   }, [idYear]);
+   console.log(users);
   
     return (
       <div>

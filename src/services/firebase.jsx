@@ -55,4 +55,18 @@ import { getFirestore, getDocs, getDoc, collection, doc, query, where } from 'fi
     const dataProductos = documents.map((doc) => ({ ...doc.data(), id: doc.id }));
     return dataProductos;
   }
-  
+  export async function getObras (){
+    const coleccionProductos = collection(db, "obras");
+  let snapshotProductos= await getDocs(coleccionProductos);
+  const documents= snapshotProductos.docs;
+  const dataProductos= documents.map((doc)=> ({...doc.data(), id: doc.id}));
+  return dataProductos
+  }
+  export async function getYear(yearURL){
+    const coleccionProductos = collection(db, "obras");
+    const q = query(coleccionProductos, where("year", "==", yearURL));
+    let snapshotProductos= await getDocs(q);
+  const documents= snapshotProductos.docs;
+  const dataProductos= documents.map((doc)=> ({...doc.data(), id: doc.id}));
+  return dataProductos
+  }
