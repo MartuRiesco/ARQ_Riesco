@@ -60,4 +60,8 @@
   .linea-de-tiempo{
     display: flex;
     flex-direction: row;
+    margin: 30px;
+    padding: 10px;
+    justify-content: center;
+
   }
