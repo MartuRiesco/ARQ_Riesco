@@ -1,3 +1,5 @@
+/* eslint-disable no-extra-semi */
+/* eslint-disable no-unused-vars */
 import { initializeApp } from "firebase/app";
 import { getFirestore, getDocs, getDoc, collection, doc, query, where } from 'firebase/firestore';
 
