@@ -33,12 +33,12 @@ export default function ObrasList({ users }) {
                         {users.map((user) => (
                             <div className='obras__destacadas-content-img' key={user.id}>
                                 <Link to={`/obra/${user.category}`}>
-                                    <div className="cover">
-                                        {user.title}
-                                    </div>
                                         <img src={user.img1} alt={user.title} />
                                 </Link>
                             </div>
+                            
+                            
+
                         ))}
                     </div>
         </div>
