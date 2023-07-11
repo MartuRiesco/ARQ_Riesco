@@ -29,7 +29,7 @@ function Arte() {
             </section>
             <section className='lado-b'>
                 <div className='blur-arte'></div>
-                <img className='imagen-arte' src='https://i.imgur.com/GkUV6J7.jpg'></img>
+                <img className='imagen-arte' src='https://i.imgur.com/6aPFOce.jpg'></img>
             </section>
          </div>
     </div>

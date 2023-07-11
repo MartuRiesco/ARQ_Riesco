@@ -147,6 +147,23 @@
 	margin-left: 10px;
 }
 
+.titulo-negro {
+	color: black;
+	font-family: 'montserrat-bold';
+    position: absolute;
+    left:145px;
+    top: 40%;
+    font-size:5rem;
+  }
+  .titulo-negro-descripcion{
+	color: black;
+	font-family: 'montserrat-medium';
+	text-transform: uppercase;
+    top: 35%; 
+    position: absolute;
+    left:150px;
+	font-size: 1rem;
+  }
 @media screen and (min-width: 320px) and (max-width: 425px) {
 
 	.slider {
@@ -154,16 +171,16 @@
 		width: 100vw;
 	}
 
-	.titulo-carousel {
+	.titulo-carousel,.titulo-negro  {
 		font-size: 25px;
 		left: 60px;
+		top: 45%;
 		width: 200px;
 	}
-
-	.descripcion-carousel {
+	.titulo-negro-descripcion,.descripcion-carousel {
 		font-size: 8px;
-		left: 60px;
-		top: 35%
+		left: 55px;
+		top: 40%
 	}
 
 	.boton-carousel {

@@ -17,7 +17,8 @@
 
 .imagen-arte {
     height: 400px;
-    width: 400px;
+    width: 450px;
+    overflow: hidden;
     border-radius: 400px;
     position: relative;
 }
@@ -48,7 +49,7 @@
 .blur-arte {
     background-color: rgb(255, 223, 159);
     position: absolute;
-    top: 110%;
+    top: 115%;
     left: 65%;
     width: 300px;
     height: 300px;
@@ -78,7 +79,6 @@
         margin: 70px 15px;
     
     }
-
     .titulo {
         font-size: 20px;
     }
@@ -100,10 +100,11 @@
     .container-arte-de-iluminar {
         margin: 0px 0;
     }
-
-    .lado-b {
-        display: none;
+    .boton-arte {
+        font-size: 10px;
     }
+
+    
 
     .arte-de-iluminar {
         flex-direction: column;
@@ -119,14 +120,20 @@
         max-width: 100%;
         font-size: 16px;
 
-    }
-
+    }      
     .blur-arte {
-        display: none;
+       width: 100px;
+       height: 100px;
+       color: blanchedalmond;
+       filter: blur(70px);
     }
+.lado-b{
+    position:absolute;
+left: 55%;
+}
 
     .imagen-arte {
-        display: none;
+    display: none;
     }
 
 }
