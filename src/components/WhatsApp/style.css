@@ -8,10 +8,10 @@
     color: white;
     background-color: #1dd639;
     text-decoration: none;
-    border-radius: 50%;
+    border-radius: 100%;
     text-align: center;
     font-size: 30px;
-    padding: 15px 20px;
+    padding: 18px 20px 10px 19px;
     transition: all 0.3s; 
 }
 
