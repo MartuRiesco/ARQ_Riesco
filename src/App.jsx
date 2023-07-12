@@ -19,7 +19,7 @@ function App() {
                     <Route path='/obras' element={<Obras/>}></Route>
                     <Route path='/obras/:idYear' element={<Obras/>}></Route>
                     <Route path='/servicios' element={<Servicios/>}></Route>
-          <Route path='/contacto' element={<Contacto />}></Route>
+                    <Route path='/contacto' element={<Contacto />}></Route>
                     <Route path='/obra/:idCategory' element={<ObrasListDetail/>}></Route>
                   </Routes>
               </main>

@@ -1,3 +1,5 @@
+/* eslint-disable no-extra-semi */
+/* eslint-disable no-unused-vars */
 import { initializeApp } from "firebase/app";
 import { getFirestore, getDocs, getDoc, collection, doc, query, where } from 'firebase/firestore';
 
@@ -19,6 +21,8 @@ import { getFirestore, getDocs, getDoc, collection, doc, query, where } from 'fi
       const documents= snapshotProducts.docs;
       const dataProducts= documents.map(doc=>doc.data())
       return dataProducts
+
+      
   }
 
   /* export async function getSingleItemFromDatabase(idCategory) {

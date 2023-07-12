@@ -4,6 +4,7 @@ import Carousell from '../Carousel/Carousel'
 import './style.css'
 import Arte from '../ArteDeIluminar/Arte'
 import ObrasDestacadas from '../ObrasDestacadas/ObrasDestacadas'
+import WhatsApp from '../WhatsApp/WhatsApp'
 function Index() {
   return (
     <div>
@@ -17,6 +18,9 @@ function Index() {
 
         <div className='obras-destacadas'>
           <ObrasDestacadas />
+        </div>
+        <div>
+          <WhatsApp />
         </div>
 
     </div>

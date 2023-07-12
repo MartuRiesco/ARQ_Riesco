@@ -13,7 +13,7 @@ function Arte() {
                 <h2>El <span className='titulo-arte'>arte </span> de la iluminación</h2>
                 </div>
                 
-                <div className='descrip-titulo'>
+                <div className='descrip-titulo-arte'>
                     <p>
                       La luz artificial ha dejado de verse como una simple herramienta utilizada exclusivamente para proveer la cantidad de luz indispensable que permite ejecutar una actividad funcional. 
                     </p>            

@@ -31,7 +31,7 @@
     margin-bottom: 40px;
 }
 
-.descrip-titulo {
+.descrip-titulo-arte {
     width: 500px;
     color: white;
     font-family: 'monserrat-it';
@@ -83,7 +83,7 @@
         font-size: 20px;
     }
 
-    .descrip-titulo {
+    .descrip-titulo-arte {
         max-width: 100%;
         font-size: 16px;
 
@@ -116,16 +116,13 @@
         font-size: 18px;
     }
 
-    .descrip-titulo {
+    .descrip-titulo-arte {
         max-width: 100%;
         font-size: 16px;
 
     }      
     .blur-arte {
-       width: 100px;
-       height: 100px;
-       color: blanchedalmond;
-       filter: blur(70px);
+       display: none;
     }
 .lado-b{
     position:absolute;

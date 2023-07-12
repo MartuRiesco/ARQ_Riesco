@@ -17,15 +17,36 @@
 .obras__destacadas-content-img > img {
     width: 100%;
     height: 100%;
-    object-fit:cover;
-    object-position:center center;
 }
 
 .obras__destacadas-content-img a > img {
     width: 100%;
     height: 100%;
-    object-fit:cover;
-    object-position:center center;
+    object-fit: cover;
+    object-position: center center;
+}
+.obras__destacadas-content-img{
+    height: 45vh;
+}
+
+/* .obras__destacadas-content-img a:hover > img {
+    opacity: 0.3;
+    color: black;
+    cursor: pointer;
+} */
+.obras-destacadas-cover{
+        opacity: 0;
+        background: black;
+        position: absolute;
+        width: 33.33%;
+        height:45vh;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+}
+.obras-destacadas-cover:hover{
+    opacity: 0.8;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
