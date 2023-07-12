@@ -1,69 +1,80 @@
-.item-servicio{
+.item-servicio {
     display: flex;
     flex-direction: column;
     margin: 100px;
 }
-.items{
+
+.items {
     display: flex;
     flex-direction: row;
-    margin:40px 0px 50px 10px;
-
+    gap: 10px;
+    margin-bottom: 50px;
 }
-.item-info{
+
+.item-info { 
     margin:0 10px 10px 10px;
     display: flex;
     padding: 5px;
     flex-direction: column;
     align-items: flex-start;
-   
     color: white;
 }
 
-.imagen-servicio{
-  
+.imagen-servicio {
     height: 100%;
 }
-.item-img{
+
+.item-img {
     margin-left: 25px;
     overflow: hidden;
     height: 400px;
 }
-.titulo-servicio{
+
+.titulo-servicio {
     font-family: 'montserrat-bold';
     font-size: 35px;
-    margin:0 10px;
+    margin-bottom: 30px;
     text-align: initial;
-    
 }
-p{
-    font-size: 15px;
-   margin-left: 10px;
+
+p {
     font-family: 'montserrat-it';
-    text-align: justify;
+    font-size: 15px;
+    letter-spacing: .02rem;
+    line-height: 26px;
+    margin-bottom: 30px;
 }
-.boton-servicios{
+
+.boton-servicios {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+
 @media screen and (min-width: 320px) and (max-width: 420px) {
+
     .item-servicio{
         margin: 5px;
     }
-    .items{
+
+    .items {
         margin: 5px;
     }
-    .item-img{
+
+    .item-img {
         height: 100px;
         margin: 0;
     }
-    .titulo-servicio{
+
+    .titulo-servicio { 
         font-size: 10px;
     }
-    p{
+    
+    p {
         font-size: 5px;
     }
-    .boton-servicios{
+
+    .boton-servicios {
         font-size: 5px;
         
     }
