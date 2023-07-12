@@ -52,52 +52,37 @@ function ObrasListDetail() {
 
                         <SwiperSlide>
                           <div className='content_imagen'>
-                              <img src={user.img1} alt={user.title} className="imagen_detail" />
+                              <div className='content_imagen-img'>
+                                  <img src={user.img1} alt={user.title} className="imagen_detail" />
+                              </div>
                           </div>
                         </SwiperSlide>
                         <SwiperSlide>
                           <div className='content_imagen'>
-                              <img src={user.img2} alt={user.title} className="imagen_detail" />
+                              <div className='content_imagen-img'>
+                                  <img src={user.img2} alt={user.title} className="imagen_detail" />
+                              </div>
                           </div>
                         </SwiperSlide>
                         <SwiperSlide>
                           <div className='content_imagen'>
-                              <img src={user.img3} alt={user.title} className="imagen_detail" />
+                              <div className='content_imagen-img'>
+                                  <img src={user.img3} alt={user.title} className="imagen_detail" />
+                              </div>
                           </div>
                         </SwiperSlide>
                         <SwiperSlide>
                           <div className='content_imagen'>
-                              <img src={user.img4} alt={user.title} className="imagen_detail" />
+                              <div className='content_imagen-img'>
+                                  <img src={user.img4} alt={user.title} className="imagen_detail" />
+                              </div>
                           </div>
                         </SwiperSlide>
                         <SwiperSlide>
                           <div className='content_imagen'>
-                              <img src={user.img5} alt={user.title} className="imagen_detail" />
-                          </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                          <div className='content_imagen'>
-                              <img src={user.img6} alt={user.title} className="imagen_detail" />
-                          </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                          <div className='content_imagen'>
-                              <img src={user.img7} alt={user.title} className="imagen_detail" />
-                          </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                          <div className='content_imagen'>
-                              <img src={user.img8} alt={user.title} className="imagen_detail" />
-                          </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                          <div className='content_imagen'>
-                              <img src={user.img9} alt={user.title} className="imagen_detail" />
-                          </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                          <div className='content_imagen'>
-                              <img src={user.img10} alt={user.title} className="imagen_detail" />
+                              <div className='content_imagen-img'>
+                                  <img src={user.img5} alt={user.title} className="imagen_detail" />
+                              </div>
                           </div>
                         </SwiperSlide>
                     </Swiper>

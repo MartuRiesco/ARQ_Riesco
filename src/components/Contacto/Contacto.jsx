@@ -6,23 +6,24 @@ import {BsWhatsapp} from 'react-icons/bs'
 
 function Contacto() {
   return (
-    <div>
+    <div className='container'>
       <div className='mapa'>
         <img className='imagen-mapa'src="https://i.imgur.com/uvSPtzJ.png" alt="ubicacion_estudio" />
       </div>
       <section className='informacion'>
         <div className='informacion-contacto'>
-          <h2 className='titulo-contacto'>
-            Contáctenos <br /> para más <br /> info.
-          </h2>
+              <h2 className='titulo-contacto'>
+                Contáctenos <br /> para más <br /> info.
+              </h2>
           <hr />
           <p className='descripcion-contacto'>
-          Podés contactarte con nosotros por los siguientes<br /> medios de Lunes a Viernes de 10 a 18hs 
-        
+          Podés contactarte con nosotros por los siguientes<br /> medios de Lunes a Viernes de 10 a 18hs
           </p>
+
           <h3 className='ubicacion-contacto'>
             Buenos Aires, Argentina
           </h3>
+          
           <div className='iconos-contacto'>
             <div className='iconos-informacion'>
             <FiMapPin className='icon'/>
