@@ -27,6 +27,9 @@ function ObrasDestacadas() {
                     {Datos.map((user) => (
                         <div className='obras__destacadas-content-img' key={user.id}>
                             <Link to={`/obra/${user.category}`}>
+                            <div className="obras-destacadas-cover">
+                                <h2>{user.title}</h2>
+                            </div>
                                     <img src={user.img} alt={user.title} />
                             </Link>
                         </div>

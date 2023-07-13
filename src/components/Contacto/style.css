@@ -79,35 +79,29 @@ hr {
     margin: 10px 0 10px 0
 }
 
-@media screen and (min-width: 320px) and (max-width: 420px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
-    .mapa{
-        width: 250px;
-        height: 100px;
-        margin: 10px 40px 10px;
-    }
-    .informacion{
+    .informacion {
         flex-direction: column;
     }
-    .informacion-contacto{
+
+    .informacion-contacto {
         width: 100%;
-        margin-left: 40px;
+        margin: 20px;
     }
-    .titulo-contacto{
-        font-size: 20px;
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+    .informacion {
+        flex-direction: column;
     }
-    .descripcion-contacto{
-        font-size: 10px;
+    
+    .informacion-contacto {
+        width: 100%;
+        margin: 20px;
     }
-    .ubicacion-contacto{
-        font-size: 15px;
-    }
-    .icon{
-        width: 15px;
-        height: 15px;
-    }
-    .direccion-contacto{
-        font-size: 10px;
-    }
+    
     
 }

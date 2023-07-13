@@ -27,8 +27,8 @@ function Carousell() {
                     }}
                     >
                           <div className="center">
-                            <h1 className='titulo-carousel'>{item.title}</h1>
-                            <p className='descripcion-carousel'>{item.description}</p>
+                            <h1 className={index === 3? 'titulo-negro' : 'titulo-carousel'}>{item.title}</h1>
+                            <p className={index === 3? 'titulo-negro-descripcion' : 'descripcion-carousel'}>{item.description}</p>
                           <Link to={`/obra/${item.category}`}>  <button className='boton-carousel'>
                                 {item.button} <span className='arrow'><BsArrowRight/></span>
                             </button></Link>

@@ -12,7 +12,7 @@ function Header() {
 };
 
     return (
-      <header className='heade container'>
+      <header className='header'>
             <div className="header__content">
                 <div className="header__content-logo">
 

@@ -8,6 +8,7 @@ import ObrasListDetail from './components/ObrasListDetail/ObrasListDetail'
 import Servicios from './components/Servicios/Servicios'
 import Estudio from './components/Estudio/Estudio'
 import WhatsApp from './components/WhatsApp/WhatsApp'
+import Footer from './components/Footer/Footer'
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
                   </Routes>
               </main>
               <WhatsApp />
+              <Footer />
         </div>
       </BrowserRouter>
       

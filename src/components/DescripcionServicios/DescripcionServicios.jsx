@@ -1,11 +1,16 @@
+/* eslint-disable react/prop-types */
 import React from 'react'
 import './style.css'
 import Button from '../Button/Button'
 
+// eslint-disable-next-line react/prop-types
 function DescripcionServicios({items}) {
   return (
+    // eslint-disable-next-line react/jsx-no-comment-textnodes
     <div className='item-servicio'>
+        
         {items.map((item, index)=>(
+            // eslint-disable-next-line react/jsx-key
             <section className='items'>
                 {index % 2 === 0 ? (
                   <React.Fragment>
@@ -19,7 +24,7 @@ function DescripcionServicios({items}) {
                     }} >
                         <h2 className='titulo-servicio'>{item.title}</h2>
                         <p className='descripcion-servicio'>{item.description}</p>
-                       <div className='boton-servicios'> <Button   info={<p>{item.moreinfo}</p>}/></div>
+                       <div className='boton-servicios'> <Button   info={<p className='moreinfo'>{item.moreinfo}</p>}/></div>
                     </div>
                   </React.Fragment>
                 ) : (

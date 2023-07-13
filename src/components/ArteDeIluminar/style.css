@@ -3,23 +3,18 @@
     src: url(../../Fonts/Montserrat-Italic.ttf);
 }
 
-.container-arte-de-iluminar {
-    margin: 200px 0;
-}
-
 .arte-de-iluminar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 150px;
-
+    margin-top: 50px;
+    padding: 100px;
 }
 
-.imagen-arte {
-    height: 400px;
-    width: 400px;
-    border-radius: 400px;
-    position: relative;
+.lado-a {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
 }
 
 .titulo {
@@ -30,31 +25,54 @@
     margin-bottom: 40px;
 }
 
-.descrip-titulo {
+.descrip-titulo-arte {
     width: 500px;
-    color: white;
-    font-family: 'monserrat-it';
-    line-height: 2;
 }
 
-.lado-a {
-    text-align: initial;
+.descrip-titulo-arte > p {
+    color: white;
+    font-family: 'monserrat-it';
+    line-height: 30px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin: 0;
 }
+
 
 .boton-arte {
     margin-top: 40px;
 }
 
-.blur-arte {
+.boton-arte-parrafo {
+    font-family: 'monserrat-it';
+    line-height: 30px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-left: 0;
+}
+
+.lado-b {
+    width: 100%;
+    margin: 0;
+    text-align: right;
+}
+
+.imagen-arte {
+    max-width: 80%;
+    margin-top: 0;
+}
+
+/* .blur-arte {
     background-color: rgb(255, 223, 159);
     position: absolute;
-    top: 110%;
+    top: 115%;
     left: 65%;
     width: 300px;
     height: 300px;
     filter: blur(100px);
     border-radius: 400px;
-}
+} */
 
 .titulo-arte {
     font-family: 'monserrat-it';
@@ -65,28 +83,13 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
-    .container-arte-de-iluminar {
-        margin: 40px 0;
-    }
-
-    .blur-arte {
-        display: none;
-    }
-
     .arte-de-iluminar {
-        flex-direction: column;
-        margin: 70px 15px;
-    
+        margin-top: 20px;
+        padding: 50px;
     }
 
     .titulo {
-        font-size: 20px;
-    }
-
-    .descrip-titulo {
-        max-width: 100%;
-        font-size: 16px;
-
+        font-size: 30px;
     }
 
     .imagen-arte {
@@ -97,34 +100,34 @@
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
 
-    .container-arte-de-iluminar {
-        margin: 0px 0;
-    }
-
-    .lado-b {
-        display: none;
-    }
-
     .arte-de-iluminar {
-        flex-direction: column;
-        margin: 70px 15px;
-    
+        margin: 50px;
+        padding: 20px;
     }
 
-    .titulo {
-        font-size: 18px;
+    .boton-arte {
+        font-size: 10px;
     }
 
-    .descrip-titulo {
+    .titulo > h2 {
+        font-size: 1.5rem;
+    }
+
+    .descrip-titulo-arte > p {
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+    .boton-arte-parrafo {
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+    .descrip-titulo-arte {
         max-width: 100%;
         font-size: 16px;
-
-    }
-
-    .blur-arte {
-        display: none;
-    }
-
+    }      
+    
     .imagen-arte {
         display: none;
     }

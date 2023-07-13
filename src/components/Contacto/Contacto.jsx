@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import './style.css'
 import Forms from '../Forms/Forms'
@@ -23,7 +24,7 @@ function Contacto() {
           <h3 className='ubicacion-contacto'>
             Buenos Aires, Argentina
           </h3>
-          
+
           <div className='iconos-contacto'>
             <div className='iconos-informacion'>
             <FiMapPin className='icon'/>

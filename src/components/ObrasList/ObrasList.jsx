@@ -16,8 +16,12 @@ export default function ObrasList({ users }) {
               const links = years.map((year) => {
                 return (
                   <Link to={`/obras/${year}`} key={year}>
-                    <Button label={true} year={year} />
-                  </Link>
+                      <div className="container__linea">
+                          <div className="button-linea-de-tiempo">
+                              <Button label={true} year={year} />
+                          </div>
+                      </div>
+                    </Link>
                 );
               });
               
@@ -33,12 +37,12 @@ export default function ObrasList({ users }) {
                         {users.map((user) => (
                             <div className='obras__destacadas-content-img' key={user.id}>
                                 <Link to={`/obra/${user.category}`}>
-                                        <img src={user.img1} alt={user.title} />
+                                <div className="obras-destacadas-cover">
+                                    <h2>{user.title}</h2>
+                                </div>
+                                    <img src={user.img1} alt={user.title} />
                                 </Link>
                             </div>
-                            
-                            
-
                         ))}
                     </div>
         </div>

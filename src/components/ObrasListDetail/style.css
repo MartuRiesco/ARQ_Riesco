@@ -12,11 +12,10 @@
     max-height: 100%;
 }
 
-.swiper-detail {
+.swiper-detail  .content_imagen img {
     height: 460px;
-    width: auto;
+    width: 100%;
 }
-
 .detail__content-title {
     padding: 2rem;
     font-family: 'montserrat-reg';
@@ -40,7 +39,9 @@
 
 
 .imagen_detail {
-    
+   height: 460px;
+    object-fit: cover;
+    object-position:  center;
 }
 
 .detail__content-title > h1 {

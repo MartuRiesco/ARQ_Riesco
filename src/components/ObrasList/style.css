@@ -12,6 +12,14 @@
     text-align: left;
 }
 
+.container__linea {
+    max-width: 100%;
+}
+
+.button-linea-de-tiempo {
+    margin: 5px;
+}
+
 .obras__content-title > p {
     font-size: 1rem;
     text-transform: uppercase;
@@ -65,4 +73,22 @@
     padding: 10px;
     justify-content: center;
 
+  }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .linea-de-tiempo{
+        display: none;
+    }
+
+    .obras__content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+    .linea-de-tiempo{
+        display: none;
+    }
 }

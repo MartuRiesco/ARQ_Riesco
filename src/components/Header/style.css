@@ -24,6 +24,7 @@
 .header__content {
     display: flex;
     position: sticky;
+    padding: 20px;
     top: 0;
     left: 0;
     flex-direction: row;
@@ -129,7 +130,7 @@
   }
 
   nav {
-      z-index: 2;
+      z-index: 1;
       height: 100vh;
   }
 

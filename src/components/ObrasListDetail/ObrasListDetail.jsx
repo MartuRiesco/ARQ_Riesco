@@ -3,10 +3,10 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { getSingleItemFromDatabase } from "../../services/firebase";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation,Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { Navigation,Pagination } from 'swiper/modules';
 
 function ObrasListDetail() {
   const [Users, setUser] = useState([]);
@@ -20,7 +20,6 @@ function ObrasListDetail() {
   useEffect(() => {
     leerDatos();
   }, []);
-
   return (
   <div className='detail container'>
     {Users.map((user)=>(
@@ -36,9 +35,9 @@ function ObrasListDetail() {
                 </div>
 
                 <div className="swiper-detail"> 
-              
-                    <Swiper
-                              slidesPerView={'2'}
+      
+          <Swiper 
+                              slidesPerView={'3'}
                               centeredSlides={true}
                               spaceBetween={5}
                               loop={true}
@@ -85,8 +84,7 @@ function ObrasListDetail() {
                               </div>
                           </div>
                         </SwiperSlide>
-                    </Swiper>
-                 
+                    </Swiper>  
                 </div>
           </div>
           <div className='detail__content-subtitle'>
