@@ -53,6 +53,9 @@
     .container_obras_destacadas {
         margin: 50px 0;
     }
+    .obras-destacadas-cover{
+        width: 100%;
+    }
 
     .obras__destacadas-title > h1 {
         font-size: 1.5rem;
@@ -77,4 +80,8 @@
     .obras__destacadas-content {
         grid-template-columns: 1fr;
     }
+    .obras-destacadas-cover{
+        width: 100%;
+    }
+
 }

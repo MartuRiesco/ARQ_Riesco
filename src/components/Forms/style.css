@@ -44,6 +44,7 @@
     background-color: black;
     border-color: white;
     border-width: 2px;
+    padding-top: 5px;
 }
 .textarea{
     height: 100px;
@@ -51,7 +52,14 @@
     border-color: white;
     border-width: 2px;
 }
-@media screen and (min-width: 320px) and (max-width: 420px) {
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .form-input{
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .form-label{
         margin-left: 30px;
         font-size: 10px;

@@ -27,7 +27,7 @@ function Contacto() {
             <div className='iconos-informacion'>
             <FiMapPin className='icon'/>
             <h4 className='direccion-contacto'>
-            Ibera 2599 <br /> Piso 8
+            Iberá 2599 <br /> Piso 8
             </h4>
             </div>
             <div className='iconos-informacion'>

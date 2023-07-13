@@ -29,7 +29,7 @@ function DescripcionServicios({items}) {
                     }}>
                         <h2 className='titulo-servicio'>{item.title}</h2>
                         <p className='descripcion-servicio'>{item.description}</p>
-                        <div className='boton-servicios'> <Button   info={<p>{item.moreinfo}</p>}/></div>
+                        <div className='boton-servicios'> <Button   info={<p className='moreinfo'>{item.moreinfo}</p>}/></div>
                     </div>
                     <div className='item-img' style={{
                       width:'50%'

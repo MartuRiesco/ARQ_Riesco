@@ -21,7 +21,7 @@ function ObrasListDetail() {
     leerDatos();
   }, []);
   return (
-  <div className='detail container'>
+  <div className='detail-container'>
     {Users.map((user)=>(
   
   // eslint-disable-next-line react/jsx-key
@@ -37,7 +37,7 @@ function ObrasListDetail() {
                 <div className="swiper-detail"> 
       
           <Swiper 
-                              slidesPerView={'3'}
+                              slidesPerView={'2'}
                               centeredSlides={true}
                               spaceBetween={5}
                               loop={true}
@@ -105,12 +105,12 @@ function ObrasListDetail() {
           <div className='detail__content-subtitle'>
                     <h4>Descripción</h4>
                 <div className='detail__content-parrafo'>
-                    <p>{user.description}</p>  
+                    <p  className="detail-description">{user.description}</p>  
                     <hr className="hr2" />
                 </div>       
                 </div>
                 <div className="detail_content-ubication">
-                  <p>{user.ubication}</p>
+                  <p className="detail-ubication">{user.ubication}</p>
           </div>
   </div>
     ))}

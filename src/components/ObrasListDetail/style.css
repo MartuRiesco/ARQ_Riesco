@@ -6,12 +6,15 @@
     font-family: 'montserrat-reg';
     src: url(../../Fonts/Montserrat-Regular.ttf);
 }
-
+.detail-container{
+    display: flex;
+    flex-direction: column;
+}
 .mySwiper {
     width: 100%;
     height: 100%;
+  
 }
-
 .swiper-detail  .content_imagen img {
     height: 460px;
     width: 100%;
@@ -88,3 +91,51 @@
     display: flex;
     flex-direction: column;
     margin: 30px;}
+    .detail-description{
+        font-family: 'montserrat-light';
+        font-size: 20px;
+    }
+    .detail-ubication{
+        font-family: 'montserrat-it';
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        .detail__content-title > h1{
+            font-size: 35px;
+        }
+        .detail-work{
+            font-size: 13px;
+        }
+        .detail__content-subtitle{
+            margin: 50px 0 10px 50px;
+        }
+        .detail_content-ubication{
+            margin:0 30px 20px 70px
+        }
+        .detail-description{
+            font-size: 15px;
+        }
+        .detail-ubication{
+            font-size: 10px;
+        }
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+        .detail__content-title > h1{
+            font-size: 25px;
+        } 
+        .hr{
+            width: 100px;
+        }
+        .detail-work{
+            font-size:10px;
+        }
+        .detail__content-subtitle{
+            margin:0;
+            border: none;
+        }
+        .hr2{
+            display: none;
+        }
+
+    }

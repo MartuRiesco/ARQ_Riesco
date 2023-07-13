@@ -169,7 +169,6 @@
 	.slider {
 		height: 300px;
 		width: 100vw;
-		z-index: -1;
 	}
 
 	.titulo-carousel,.titulo-negro  {
