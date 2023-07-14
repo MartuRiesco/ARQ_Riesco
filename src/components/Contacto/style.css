@@ -11,23 +11,23 @@
     src: url(../../Fonts/Montserrat-Italic.ttf);
 }
 
-.mapa{
-    width: 1409px;
-    height: 565px;
-    margin: 50px 60px 20px ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.mapa {
+    width: 90%;
+    margin: 0 5% 0 5%;
 }
-.imagen-mapa{
+
+.imagen-mapa {
     width: 100%;
+    margin: 50px 0;
 }
-.informacion{
+
+.informacion {
     display: flex;
     flex-direction: row;
     color: white;
 }
-.informacion-contacto{
+
+.informacion-contacto {
     width: 50%;
     display: flex;
     margin-top: 50px;
@@ -35,35 +35,40 @@
     align-items: flex-start;
     margin-left: 100px;
 }
-.titulo-contacto{
-font-family: 'montserrat-semibold';
-text-align: left;
-font-size: 40px;
 
+.titulo-contacto {
+    font-family: 'montserrat-semibold';
+    text-align: left;
+    font-size: 40px;
 }
-hr{margin-top: 20px;
+
+hr {
+    margin: 50px 0;
     text-align: left;
     width: 20px;
     color: white;
 }
+
 .descripcion-contacto{
     text-align: left;
     font-family: 'montserrat-it';
     font-weight: 100;
     margin-top: 20px;
 }
-.iconos-informacion{
+.iconos-informacion {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 20px;
 }
-.icon{
+
+.icon {
     margin-right: 30px;
     width: 20px;
     height: 20px;
 }
-.ubicacion-contacto{
+
+.ubicacion-contacto {
     margin-top: 20px;
 }
 .direccion-contacto
@@ -73,12 +78,8 @@ font-weight: 600;
 margin: 10px 0 10px 0
 } 
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .mapa{
-        width: 700px;
-        margin: 0 10px 0 40px;
-        height: auto;
-    }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+   
     .informacion-contacto{
         margin: 50px 0 0 40px;
         width: 50%;
@@ -93,32 +94,36 @@ margin: 10px 0 10px 0
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    .mapa{
-        width: 250px;
-        height: 100px;
-        margin: 10px 40px 10px;
+    
+    .imagen-mapa{
+        margin: 0;
     }
     .informacion{
         flex-direction: column;
     }
-    .informacion-contacto{
+
+    .informacion-contacto {
         width: 100%;
-        margin-left: 40px;
+        margin: 20px 0 0 5%;
     }
     .titulo-contacto{
         font-size: 20px;
     }
+    hr{
+        margin: 15px 0 ;
+    }
     .descripcion-contacto{
         font-size: 10px;
+        margin: 0;
     }
-    .ubicacion-contacto{
+    .ubicacion-contacto {
         font-size: 15px;
     }
-    .icon{
+    .icon {
         width: 15px;
         height: 15px;
     }
     .direccion-contacto{
-        font-size: 10px;
+        font-size: 12px;
     }
 }

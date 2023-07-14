@@ -29,16 +29,11 @@
     height: 45vh;
 }
 
-/* .obras__destacadas-content-img a:hover > img {
-    opacity: 0.3;
-    color: black;
-    cursor: pointer;
-} */
 .obras-destacadas-cover{
         opacity: 0;
         background: black;
         position: absolute;
-        width: 33.33%;
+        width: 33.7%;
         height:45vh;
         color: white;
         display: flex;
@@ -58,7 +53,7 @@
     }
 
     .obras__destacadas-title > h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin: 40px 0;
     }
 
@@ -73,7 +68,7 @@
     }
 
     .obras__destacadas-title > h1 {
-        font-size: 20px;
+        font-size: 1rem;
         margin-top: 0;
     }
 

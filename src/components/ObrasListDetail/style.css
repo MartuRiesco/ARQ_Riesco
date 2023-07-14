@@ -11,8 +11,8 @@
     flex-direction: column;
 }
 .mySwiper {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
   
 }
 .swiper-detail  .content_imagen img {
@@ -33,8 +33,13 @@
 }
 
 .content_imagen {
+    max-width: 100%;
+}
+
+.content_imagen-img > img {
     width: 100%;
 }
+
 
 .imagen_detail {
    height: 460px;

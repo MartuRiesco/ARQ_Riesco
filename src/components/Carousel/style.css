@@ -164,7 +164,34 @@
     left:150px;
 	font-size: 1rem;
   }
-@media screen and (min-width: 320px) and (max-width: 425px) {
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+	
+	.slider {
+		height: 400px;
+		width: 100vw;
+	}
+	.titulo-carousel,.titulo-negro  {
+		font-size: 35px;
+		left: 80px;
+		top: 45%;
+		width: 200px;
+	}
+	.titulo-negro-descripcion,.descripcion-carousel {
+		font-size: 12px;
+		left: 80px;
+		top: 40%
+	}
+	.boton-carousel {
+		top: 70%;
+		left: 80px;
+		color: white;
+		padding: 10px;
+		font-size: .7rem;
+		display: flex;
+	}
+
+  }
+@media screen and (min-width: 320px) and (max-width: 767px) {
 
 	.slider {
 		height: 300px;

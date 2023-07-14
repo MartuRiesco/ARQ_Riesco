@@ -2,7 +2,6 @@
 import React, {useState, useEffect} from 'react';
 import { useParams } from "react-router-dom";
 import ObrasList from '../ObrasList/ObrasList';
-import './style.css';
 import { getObras, getYear } from '../../services/firebase';
 
   function Obras() {

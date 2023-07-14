@@ -12,7 +12,7 @@ function Header() {
 };
 
     return (
-      <header className='heade container'>
+      <header className='header'>
             <div className="header__content">
                 <div className="header__content-logo">
 
@@ -20,6 +20,7 @@ function Header() {
                       {' '}
 
                           <section className="loguito">
+                            <h2 className='titulo-pag-responsive'>G R</h2>
                             <h2 className="titulo-pag">G E R M Á N </h2>
                             <h2 className="titulo-pag">R I E S C O</h2>{' '}
                           </section>

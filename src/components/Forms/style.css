@@ -1,53 +1,61 @@
-.form{
+.formulario {
+    margin: 50px 0;
+    max-width: 100%;
+    margin-left: 0 auto;
+}
+
+.form {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     margin-top: 50px;
 }
-.form-seccion{
+
+.form-seccion {
     display: flex;
     flex-direction: column;
-    padding: 5px;
-    align-items: flex-start;
 }
-.form-label{
-    margin: 5px 0 5px 50px;
-    padding: 5px;
+
+.form-label {
+    text-align: left;
     color: white;
- font-size:small;
- font-weight: 100;
- font-family: 'montserrat-semibold'
+    font-size: small;
+    font-weight: 100;
+    font-family: 'montserrat-semibold'
 }
-.form-input{
-    padding: 15px 5px;
+
+.form-input {
+    text-align: left;
     width: 438px;
     color: white;
+    padding: 20px 5px;
     border: white;
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-bottom-color: white;
-    margin: 5px 0 5px 50px;
     background-color: black;
-
+    margin: 25px 0;
 }
-.error{
+
+.error {
     margin-left: 50px;
-    color: red;
+    color: rgb(219, 37, 37);
     font-family: 'montserrat-bold';
 }
-.form-button{
-    margin: 5px 0 20px 55px;
+
+.form-button {
     width: 100px;
     height: 40px;
     border: solid;
     color: white;
-    background-color: black;
+    background-color: transparent;
     border-color: white;
     border-width: 2px;
     padding-top: 5px;
+    font-size: 12px;
 }
-.textarea{
-    height: 100px;
+
+.textarea {
+    height: 150px;
     border: solid;
     border-color: white;
     border-width: 2px;
@@ -64,21 +72,37 @@
         margin-left: 30px;
         font-size: 10px;
     }
-    .form-input{
-        margin-left: 30px;
-        width: 230px;
-        padding: 10px 5px;
+
+    .form {
+        max-width: 100%;
+        margin: 50px;
     }
-    .textarea{
-        height: 70px;
+
+    .form-input {
+        max-width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+    .formulario {
+    margin: 50px 0;
+    }
+.form-label{
+    margin: 0;
+    font-size: 13px;
+}
+    .form {
+        max-width: 100%;
+        margin: 5%;
+    }
+
+    .form-input {
+        max-width: 100%;
     }
     .form-button{
-        width: 70px;
-        height: 30px;
-        font-size: 10px;
-        margin-left: 35px;
+        padding: 5px;
     }
-    .error{
-        margin-left: 30px;
-    }
+    
 }
