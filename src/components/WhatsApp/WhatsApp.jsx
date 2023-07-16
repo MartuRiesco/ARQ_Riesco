@@ -7,7 +7,7 @@ import './style.css';
 function WhatsApp() {
   return (
     <div className="whatsapp-icono">
-        <a href="#"><BsWhatsapp /></a>
+        <a href="https://wa.me/5491140347047"><BsWhatsapp /></a>
     </div>
   )
 }

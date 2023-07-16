@@ -43,8 +43,15 @@
 .obras-destacadas-cover:hover{
     opacity: 0.8;
 }
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .obras-destacadas-cover{
+        width: 50%;
+    }
+    .obras__destacadas-content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .container_obras_destacadas {
         margin: 50px 0;
     }

@@ -50,6 +50,9 @@ button {
   cursor: pointer;
   padding-bottom: 10px;
 }
+main{
+  height: 100%;
+}
 
 button:focus,
 button:focus-visible {

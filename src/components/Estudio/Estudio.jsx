@@ -36,7 +36,7 @@ function Estudio() {
                       </div>
                   </div>
                   <div className='estudio__content-staff-card'>
-                      <img src="https://i.ibb.co/s25FGSJ/team-img-2-1img2.png" alt="Marina Navarro | Arquitecto" />
+                      <img src="https://i.imgur.com/fyezM5C.jpg" alt="Marina Navarro | Arquitecto" className='imagen-estudio' />
                       <div className='estudio__content-staff-card-detail'>
                             <div className='estudio__content-staff-card-detail'>
                                   <h2>Marina Navarro</h2>
@@ -47,12 +47,12 @@ function Estudio() {
                       </div>
                   </div>
                   <div className='estudio__content-staff-card'>
-                      <img src="https://i.ibb.co/6DWYy3N/team-img-3-1img3.png" alt="German Vázquez | Arquitecto" />
+                      <img src="https://i.imgur.com/xuNjvyG.jpg" alt="Aylu jsjsjs | Arquitecto"  className='imagen-estudio'/>
                       <div className='estudio__content-staff-card-detail'>
                             <div className='estudio__content-staff-card-detail'>
-                                  <h2>German Vázquez</h2>
-                                  <h4>Arquitecto</h4>
-                                  <p>Arquitecto UBA - 2013</p>
+                                  <h2>Aylen skdhfa</h2>
+                                  <h4>Arquitecta</h4>
+                                  <p>Arquitecta UBA - 2013</p>
                                   <p>Docente ayudante - Catedra Diseño UBA</p>
                             </div>
                       </div>

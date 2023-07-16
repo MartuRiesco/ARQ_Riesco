@@ -16,7 +16,7 @@ function Contacto() {
               <h2 className='titulo-contacto'>
                 Contáctenos <br /> para más <br /> info.
               </h2>
-          <hr />
+          <hr className='hr4' />
           <p className='descripcion-contacto'>
           Podés contactarte con nosotros por los siguientes<br /> medios de Lunes a Viernes de 10 a 18hs
           </p>

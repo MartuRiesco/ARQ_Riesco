@@ -80,7 +80,7 @@
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .item-servicio{
-        margin: 5px;
+        margin: 70px 5px 5px 5px;
     }
 
     .items {

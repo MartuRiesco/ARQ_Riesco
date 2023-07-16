@@ -104,7 +104,7 @@
         font-family: 'montserrat-it';
     }
 
-    @media screen and (min-width: 768px) and (max-width: 1024px) {
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
         .detail__content-title > h1{
             font-size: 35px;
         }
@@ -123,6 +123,9 @@
         .detail-ubication{
             font-size: 10px;
         }
+        .swiper-detail  .content_imagen img {
+            height: 250px;
+        }
     }
 
     @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -138,9 +141,22 @@
         .detail__content-subtitle{
             margin:0;
             border: none;
+            font-size: 17px;
         }
         .hr2{
             display: none;
+        }
+        .swiper-detail  .content_imagen img {
+            height: 130px;
+        }
+        .detail-description{
+            font-size: 15px;
+        }
+        .detail-ubication{
+            font-size: 10px;
+        }
+        .detail_content-ubication{
+            margin: 0 30px 30px 30px;
         }
 
     }
