@@ -19,10 +19,12 @@
 .button-linea-de-tiempo {
     margin: 15px;
 }
-.dest > h1{
+
+.dest > h1 {
     font-size: 70px;
     font-family: 'montserrat-light';
 }
+
 .obras__content-title > p {
     font-size: 1rem;
     text-transform: uppercase;
@@ -30,43 +32,11 @@
     text-align: left;
 }
 
-.obras__content-img > img {
-    width: 500px;
-}
-
-.obras__content-img > h4 {
-    font-size: 1rem;
-    font-weight: 300;
-    margin-bottom: .5rem;
-}
-
-.obras__content-img > p {
-    font-size: 1.5rem;
-    margin-bottom: .5rem;
-}
-
-.obras__content-img .stock {
-    font-size: .8rem;
-    margin-bottom: .5rem;
-}
-
 .obras__content-img {
     text-align: center;
 }
 
-.cover {
-    opacity: 0;
-    background: black;
-    position: absolute;
-    max-width: 100%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.cover:hover {
-    opacity: 0.7;
-}
+
 
 .linea-de-tiempo {
     display: flex;
@@ -78,22 +48,26 @@
   }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+
     .obras__content {
         grid-template-columns: 1fr 1fr;
     }
-    .dest > h1{
-        font-size: 35px;}
-        tit
+
+    .dest > h1 {
+        font-size: 35px;
+    }
+    
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+
     .linea-de-tiempo {
-        margin: 0;
-        
+        margin: 0;      
     }
    
-    .dest > h1{
+    .dest > h1 {
         margin:5px;
-        font-size: 25px;}
+        font-size: 25px;
+    }
 
 }

@@ -40,9 +40,19 @@
         align-items: center;
         justify-content: space-around;
 }
-.obras-destacadas-cover:hover{
+
+.obras-destacadas-cover:hover {
     opacity: 0.8;
 }
+
+.obras-destacadas-cover a > h2 {
+    color: white;
+}
+
+.obras-destacadas-cover a:hover > h2 {
+    color: white;
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
     .obras-destacadas-cover{
         width: 50%;
