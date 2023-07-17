@@ -4,6 +4,8 @@ import { useParams } from "react-router-dom";
 import { getSingleItemFromDatabase } from "../../services/firebase";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation,Pagination } from 'swiper/modules';
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -20,6 +22,24 @@ function ObrasListDetail() {
   useEffect(() => {
     leerDatos();
   }, []);
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 1,
+      slidesToSlide: 1 
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+      slidesToSlide: 2 
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      slidesToSlide: 1 
+    },
+  };
+  
   return (
   <div className='detail-container'>
     {Users.map((user)=>(
@@ -36,55 +56,74 @@ function ObrasListDetail() {
 
                 <div className="swiper-detail"> 
       
-          <Swiper 
-                              slidesPerView={'2'}
-                              centeredSlides={true}
-                              spaceBetween={5}
-                              loop={true}
-                              pagination={{
-                                clickable: true,
-                              }}
-                              navigation={true}
-                              modules={[Navigation, Pagination]}
-                              className="mySwiper"
-                    >
 
-                        <SwiperSlide>
-                          <div className='content_imagen'>
-                              <div className='content_imagen-img'>
-                                  <img src={user.img1} alt={user.title} className="imagen_detail" />
-                              </div>
-                          </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                          <div className='content_imagen'>
-                              <div className='content_imagen-img'>
-                                  <img src={user.img2} alt={user.title} className="imagen_detail" />
-                              </div>
-                          </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                          <div className='content_imagen'>
-                              <div className='content_imagen-img'>
-                                  <img src={user.img3} alt={user.title} className="imagen_detail" />
-                              </div>
-                          </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                          <div className='content_imagen'>
-                              <div className='content_imagen-img'>
-                                  <img src={user.img4} alt={user.title} className="imagen_detail" />
-                              </div>
-                          </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                          <div className='content_imagen'>
-                              <div className='content_imagen-img'>
-                                  <img src={user.img5} alt={user.title} className="imagen_detail" />
-                              </div>
-                          </div>
-                        </SwiperSlide>
-                    </Swiper>  
+<Carousel
+      swipeable={true}
+      draggable={true}
+      showDots={false}
+      centerMode={true}
+      responsive={responsive}
+      ssr={true} // Renderizado en el servidor
+      infinite={true}
+     /*  customTransition="transform 800ms ease-in-out" */
+      transitionDuration={500}
+      containerClass="react-multi-carousel-list"
+      removeArrowOnDeviceType={["tablet", "mobile"]}
+      dotListClass="custom-dot-list-style"
+      itemClass="carousel-item-padding-40-px"
+      > 
+      <div className='content_imagen'>
+        <div className='content_imagen-img'>
+          <img src={user.img1} alt={user.title} className="imagen_detail" />
+        </div>
+     </div>
+     <div className='content_imagen'>
+        <div className='content_imagen-img'>
+          <img src={user.img2} alt={user.title} className="imagen_detail" />
+        </div>
+     </div>
+     <div className='content_imagen'>
+        <div className='content_imagen-img'>
+          <img src={user.img3} alt={user.title} className="imagen_detail" />
+        </div>
+     </div>
+     <div className='content_imagen'>
+        <div className='content_imagen-img'>
+          <img src={user.img4} alt={user.title} className="imagen_detail" />
+        </div>
+     </div>
+     <div className='content_imagen'>
+        <div className='content_imagen-img'>
+          <img src={user.img5} alt={user.title} className="imagen_detail" />
+        </div>
+     </div>
+     <div className='content_imagen'>
+        <div className='content_imagen-img'>
+          <img src={user.img6} alt={user.title} className="imagen_detail" />
+        </div>
+     </div>
+     <div className='content_imagen'>
+        <div className='content_imagen-img'>
+          <img src={user.img7} alt={user.title} className="imagen_detail" />
+        </div>
+     </div>
+     <div className='content_imagen'>
+        <div className='content_imagen-img'>
+          <img src={user.img8} alt={user.title} className="imagen_detail" />
+        </div>
+     </div>
+     <div className='content_imagen'>
+        <div className='content_imagen-img'>
+          <img src={user.img9} alt={user.title} className="imagen_detail" />
+        </div>
+     </div>
+     <div className='content_imagen'>
+        <div className='content_imagen-img'>
+          <img src={user.img10} alt={user.title} className="imagen_detail" />
+        </div>
+     </div>
+     
+    </Carousel>
                 </div>
           </div>
           <div className='detail__content-subtitle'>
@@ -104,3 +143,96 @@ function ObrasListDetail() {
 }
 
 export default ObrasListDetail;
+{/*  <Swiper 
+                     slidesPerView={'2'}
+                     centeredSlides={true}
+                     spaceBetween={5}
+                     loop={true}
+                     pagination={{
+                       clickable: true,
+                     }}
+                     navigation={true}
+                     modules={[Navigation, Pagination]}
+                     className="mySwiper"
+           >
+             
+
+               <SwiperSlide>
+                 <div className='content_imagen'>
+                     <div className='content_imagen-img'>
+                         <img src={user.img1} alt={user.title} className="imagen_detail" />
+                     </div>
+                 </div>
+               </SwiperSlide>
+               <SwiperSlide>
+                 <div className='content_imagen'>
+                     <div className='content_imagen-img'>
+                         <img src={user.img2} alt={user.title} className="imagen_detail" />
+                     </div>
+                 </div>
+               </SwiperSlide>
+               <SwiperSlide>
+                 <div className='content_imagen'>
+                     <div className='content_imagen-img'>
+                         <img src={user.img3} alt={user.title} className="imagen_detail" />
+                     </div>
+                 </div>
+               </SwiperSlide>
+               <SwiperSlide>
+                 <div className='content_imagen'>
+                     <div className='content_imagen-img'>
+                         <img src={user.img4} alt={user.title} className="imagen_detail" />
+                     </div>
+                 </div>
+               </SwiperSlide>
+               <SwiperSlide>
+                 <div className='content_imagen'>
+                     <div className='content_imagen-img'>
+                         <img src={user.img5} alt={user.title} className="imagen_detail" />
+                     </div>
+                 </div>
+               </SwiperSlide>
+               <SwiperSlide>
+                 <div className='content_imagen'>
+                     <div className='content_imagen-img'>
+                         <img src={user.img6} alt={user.title} className="imagen_detail" />
+                     </div>
+                 </div>
+               </SwiperSlide>
+               <SwiperSlide>
+                 <div className='content_imagen'>
+                     <div className='content_imagen-img'>
+                         <img src={user.img7} alt={user.title} className="imagen_detail" />
+                     </div>
+                 </div>
+               </SwiperSlide>
+               <SwiperSlide>
+                 <div className='content_imagen'>
+                     <div className='content_imagen-img'>
+                         <img src={user.img8} alt={user.title} className="imagen_detail" />
+                     </div>
+                 </div>
+               </SwiperSlide>
+               <SwiperSlide>
+                 <div className='content_imagen'>
+                     <div className='content_imagen-img'>
+                         <img src={user.img9} alt={user.title} className="imagen_detail" />
+                     </div>
+                 </div>
+               </SwiperSlide>
+               <SwiperSlide>
+                 <div className='content_imagen'>
+                     <div className='content_imagen-img'>
+                         <img src={user.img10} alt={user.title} className="imagen_detail" />
+                     </div>
+                 </div>
+               </SwiperSlide>
+               <SwiperSlide>
+                 <div className='content_imagen'>
+                     <div className='content_imagen-img'>
+                         <img src={user.img5} alt={user.title} className="imagen_detail" />
+                     </div>
+                 </div>
+               </SwiperSlide>
+
+           </Swiper>   */}
