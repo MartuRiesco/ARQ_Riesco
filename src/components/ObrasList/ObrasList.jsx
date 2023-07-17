@@ -34,8 +34,8 @@ export default function ObrasList({ users }) {
                     <div className='obras__destacadas-content'>
                         {users.map((user) => (
                             <div className='obras__destacadas-content-img' key={user.id}>
-                                <div className="obras-destacadas-cover">
-                                    <Link to={`/obra/${user.category}`}>
+                                <div>
+                                    <Link to={`/obra/${user.category}`} className="obras-destacadas-cover">
                                         <h2>{user.title}</h2>
                                     </Link>
                                 </div>
