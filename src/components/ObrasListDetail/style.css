@@ -125,7 +125,7 @@
             font-size: 10px;
         }
         .swiper-detail  .content_imagen img {
-            height: 250px;
+            height: 350px;
         }
     }
 
@@ -148,7 +148,7 @@
             display: none;
         }
         .swiper-detail  .content_imagen img {
-            height: 130px;
+            height: 200px;
         }
         .detail-description{
             font-size: 15px;
@@ -159,5 +159,6 @@
         .detail_content-ubication{
             margin: 0 30px 30px 30px;
         }
+    
 
     }

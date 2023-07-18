@@ -30,13 +30,14 @@ function ObrasListDetail() {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
-      slidesToSlide: 2 
+      items: 1,
+      slidesToSlide: 1 
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
       items: 1,
-      slidesToSlide: 1 
+      slidesToSlide: 1, 
+      centerMode:false
     },
   };
   
@@ -68,7 +69,7 @@ function ObrasListDetail() {
      /*  customTransition="transform 800ms ease-in-out" */
       transitionDuration={500}
       containerClass="react-multi-carousel-list"
-      removeArrowOnDeviceType={["tablet", "mobile"]}
+      removeArrowOnDeviceType={[ "mobile"]}
       dotListClass="custom-dot-list-style"
       itemClass="carousel-item-padding-40-px"
       > 
