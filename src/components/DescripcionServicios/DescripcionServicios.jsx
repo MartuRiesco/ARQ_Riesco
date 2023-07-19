@@ -15,12 +15,12 @@ function DescripcionServicios({items}) {
                 {index % 2 === 0 ? (
                   <React.Fragment>
                     <div className='item-img' style={{
-                      width:'50%'
+                    
                     }}>
                        <img className='imagen-servicio' src={item.img} alt={item.title} />
                     </div>
                     <div className='item-info' style={{
-                      width:'50%'
+                    
                     }} >
                         <h2 className='titulo-servicio'>{item.title}</h2>
                         <p className='descripcion-servicio'>{item.description}</p>
@@ -30,14 +30,14 @@ function DescripcionServicios({items}) {
                 ) : (
                   <React.Fragment>
                     <div className='item-info'  style={{
-                      width:'50%'
+                     
                     }}>
                         <h2 className='titulo-servicio'>{item.title}</h2>
                         <p className='descripcion-servicio'>{item.description}</p>
                         <div className='boton-servicios'> <Button   info={<p className='moreinfo'>{item.moreinfo}</p>}/></div>
                     </div>
                     <div className='item-img' style={{
-                      width:'50%'
+                    
                     }}>
                        <img  className='imagen-servicio' src={item.img} alt={item.title} />
                     </div>
