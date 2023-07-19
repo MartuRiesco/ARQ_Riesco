@@ -41,7 +41,7 @@
         justify-content: space-around;
 }
 
-.obras-destacadas-cover:hover {
+.obras-hover:hover .obras-destacadas-cover{
     opacity: 0.8;
 }
 
