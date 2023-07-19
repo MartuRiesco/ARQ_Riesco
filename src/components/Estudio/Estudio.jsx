@@ -21,10 +21,10 @@ function Estudio() {
                       <p>Nuestro Staff</p>
                   </div>
                   <div className='estudio__content-staff-card'>
-                      <img src="https://i.ibb.co/55DGfgV/team-img-1-1img-riesco.png" alt="German Riesco | Arquitecto" />
+                      <img src="https://i.imgur.com/J9HY5Hk.jpg" alt="German Riesco | Arquitecto" />
                       <div className='estudio__content-staff-card-detail'>
                             <div className='estudio__content-staff-card-detail detail'>
-                                  <h2>German Riesco</h2>
+                                  <h2>Germán Riesco</h2>
                                   <h4>Arquitecto</h4>
                                   <p>Arquitecto UBA - 1993</p>
                                   <p>Egresado del Colegio Nacional de Buenos Aires - 1986</p>

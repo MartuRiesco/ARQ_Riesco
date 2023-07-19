@@ -149,6 +149,7 @@
         }
         .swiper-detail  .content_imagen img {
             height: 200px;
+            width: 100%;
         }
         .detail-description{
             font-size: 15px;
