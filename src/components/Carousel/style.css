@@ -42,6 +42,7 @@
 	        transform: translateY(-50%) scale(1.25);
             margin: 0%;
 	cursor: pointer;
+	color: aqua;
 }
 
 .slider a.previousButton {

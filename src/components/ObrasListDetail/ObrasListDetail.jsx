@@ -2,8 +2,6 @@ import "./style.css";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { getSingleItemFromDatabase } from "../../services/firebase";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation,Pagination } from 'swiper/modules';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import 'swiper/css';
@@ -71,6 +69,7 @@ function ObrasListDetail() {
       removeArrowOnDeviceType={["tablet", "mobile"]}
       dotListClass="custom-dot-list-style"
       itemClass="carousel-item-padding-40-px"
+
       > 
       <div className='content_imagen'>
         <div className='content_imagen-img'>
