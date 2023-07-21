@@ -33,7 +33,7 @@
         opacity: 0;
         background: black;
         position: absolute;
-        width: 33.7%;
+        width: 33.45%;
         height:45vh;
         color: white;
         display: flex;
@@ -91,9 +91,6 @@
 
     .obras__destacadas-content {
         grid-template-columns: 1fr;
-    }
-    .obras-destacadas-cover{
-        width: 100%;
     }
 
 }

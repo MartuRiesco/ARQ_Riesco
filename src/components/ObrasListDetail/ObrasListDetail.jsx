@@ -61,9 +61,8 @@ function ObrasListDetail() {
       showDots={false}
       centerMode={true}
       responsive={responsive}
-      ssr={true} // Renderizado en el servidor
+      ssr={true}
       infinite={true}
-     /*  customTransition="transform 800ms ease-in-out" */
       transitionDuration={500}
       containerClass="react-multi-carousel-list"
       removeArrowOnDeviceType={["tablet", "mobile"]}
