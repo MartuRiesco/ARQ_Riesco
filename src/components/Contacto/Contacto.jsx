@@ -9,7 +9,7 @@ function Contacto() {
   return (
     <div className='container'>
       <div className='mapa'>
-        <img className='imagen-mapa'src="https://i.imgur.com/uvSPtzJ.png" alt="ubicacion_estudio" />
+        <img className='imagen-mapa'src="https://i.imgur.com/Rxum6Ub.png" alt="ubicacion_estudio" />
       </div>
       <section className='informacion'>
         <div className='informacion-contacto'>

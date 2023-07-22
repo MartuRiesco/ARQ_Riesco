@@ -20,7 +20,8 @@ function Header() {
                       {' '}
 
                           <section className="loguito">
-                            <h2 className='titulo-pag-responsive'>G R</h2>
+                            {/* <h2 className='titulo-pag-responsive'>G R</h2> */}
+                            <img src="https://i.imgur.com/ytaoybC.png" alt="logo"  className='titulo-pag-responsive imagen-logo '/>
                             <h2 className="titulo-pag">G E R M Á N </h2>
                             <h2 className="titulo-pag">R I E S C O</h2>{' '}
                           </section>
