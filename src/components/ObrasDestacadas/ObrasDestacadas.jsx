@@ -26,7 +26,7 @@ function ObrasDestacadas() {
             <div className='obras__destacadas-content'>
                     {Datos.map((user) => (
                         <div className='obras__destacadas-content-img' key={user.id}>
-                            <div>
+                            <div className="obras-hover">
                             <Link to={`/obra/${user.category}`} className="obras-destacadas-cover">
                                 <h2>{user.title}</h2>
                             </Link>

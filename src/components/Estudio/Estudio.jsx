@@ -21,10 +21,10 @@ function Estudio() {
                       <p>Nuestro Staff</p>
                   </div>
                   <div className='estudio__content-staff-card'>
-                      <img src="https://i.ibb.co/55DGfgV/team-img-1-1img-riesco.png" alt="German Riesco | Arquitecto" />
+                      <img src="https://i.imgur.com/J9HY5Hk.jpg" alt="German Riesco | Arquitecto" />
                       <div className='estudio__content-staff-card-detail'>
                             <div className='estudio__content-staff-card-detail detail'>
-                                  <h2>German Riesco</h2>
+                                  <h2>Germán Riesco</h2>
                                   <h4>Arquitecto</h4>
                                   <p>Arquitecto UBA - 1993</p>
                                   <p>Egresado del Colegio Nacional de Buenos Aires - 1986</p>
@@ -50,10 +50,20 @@ function Estudio() {
                       <img src="https://i.imgur.com/xuNjvyG.jpg" alt="Aylu jsjsjs | Arquitecto"  className='imagen-estudio'/>
                       <div className='estudio__content-staff-card-detail'>
                             <div className='estudio__content-staff-card-detail'>
-                                  <h2>Aylen skdhfa</h2>
+                                  <h2>María Aylén Ricciardelli</h2>
                                   <h4>Arquitecta</h4>
-                                  <p>Arquitecta UBA - 2013</p>
+                                  <p>Arquitecta UBA - 2021</p>
                                   <p>Docente ayudante - Catedra Diseño UBA</p>
+                            </div>
+                      </div>
+                  </div>
+                  <div className='estudio__content-staff-card'>
+                      <img src="https://i.imgur.com/fyezM5C.jpg" alt="Marina Navarro | Arquitecto" className='imagen-estudio' />
+                      <div className='estudio__content-staff-card-detail'>
+                            <div className='estudio__content-staff-card-detail'>
+                                  <h2>Catalina Riesco</h2>
+                                  <h4>Estudiante</h4>
+                                  <p>Arquitectura UBA </p>
                             </div>
                       </div>
                   </div>
