@@ -1,13 +1,7 @@
-.formulario {
-    margin: 50px 0;
-    max-width: 100%;
-    margin-left: 0 auto;
-}
-
 .form {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    width: 400px;
 }
 
 .form-seccion {
@@ -62,47 +56,27 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .form {
+        width: 300px;
+        margin: 50px 0 0 50px;
+    }
     .form-input{
-        width: 200px;
+        width: 80%;
     }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .form-label{
-        margin-left: 30px;
-        font-size: 10px;
+        font-size: 16px;
     }
 
     .form {
         max-width: 100%;
-        margin: 50px;
+        margin: 40px 20px ;
     }
 
     .form-input {
         max-width: 100%;
-    }
-    
-}
-
-@media screen and (min-width: 320px) and (max-width: 768px) {
-
-    .formulario {
-    margin: 50px 0;
-    }
-.form-label{
-    margin: 0;
-    font-size: 13px;
-}
-    .form {
-        max-width: 100%;
-        margin: 5%;
-    }
-
-    .form-input {
-        max-width: 100%;
-    }
-    .form-button{
-        padding: 5px;
     }
     
 }
