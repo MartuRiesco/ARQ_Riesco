@@ -44,13 +44,19 @@
 
     .footer__content {
         flex-direction: column;
+        padding: 0;
+    }
+
+    .footer__content-copyright {
+        width: 100%;
     }
 
     .footer__content-copyright >  p {
         font-size: 12px;
+        width: 70%;
     }
     .footer__content-developer > p{
         font-size: 12px;
-        margin-top: 5px;
+        margin-top: 15px;
     }
 }
