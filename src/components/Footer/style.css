@@ -18,20 +18,19 @@
     .footer {
         margin: 30px 0;
         padding: 0 20px;
-        text-align: left;
+        text-align: center;
     }
 
     .footer__content {
         flex-direction: column;
-        padding: 0;
+        text-align: center;
     }
     .footer__content-copyright >  p {
         font-size: 15px;
     }
     .footer__content-developer > p{
         font-size: 15px;
-        margin-top: 5px;
-        padding-left: 65%;
+        margin-top: 15px;
     }
 
 }
@@ -45,12 +44,8 @@
 
     .footer__content {
         flex-direction: column;
-        padding: 0;
     }
 
-    .footer__content-copyright{  
-          padding-right: 90px;
-        }
     .footer__content-copyright >  p {
         font-size: 12px;
     }
