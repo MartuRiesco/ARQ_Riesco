@@ -1,10 +1,24 @@
 /* eslint-disable react/prop-types */
-import React from 'react'
+import React, { useState } from 'react'
+import { isMobile } from 'react-device-detect';
 import './style.css'
 import Button from '../Button/Button'
+import { useEffect } from 'react';
 
 // eslint-disable-next-line react/prop-types
 function DescripcionServicios({items}) {
+  const [responsive, isResponsive] = useState(false)
+  function esMobile(){
+if(isMobile){
+  isResponsive(true)
+}else{
+  isResponsive(false)
+}
+
+ }
+ useEffect(()=>{
+  esMobile();
+},[false])
   return (
     // eslint-disable-next-line react/jsx-no-comment-textnodes
     <div className='item-servicio'>
@@ -12,7 +26,7 @@ function DescripcionServicios({items}) {
         {items.map((item, index)=>(
             // eslint-disable-next-line react/jsx-key
             <section className='items'>
-                {index % 2 === 0 ? (
+                {index % 2 === 0 || responsive ? (
                   <React.Fragment>
                     <div className='item-img' style={{
                     

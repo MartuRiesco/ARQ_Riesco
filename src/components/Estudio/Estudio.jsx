@@ -20,7 +20,7 @@ function Estudio() {
                   <div className='estudio__content-subtitles'>
                       <p>Nuestro Staff</p>
                   </div>
-                  <div className='estudio__content-staff-card'>
+                  <div className='estudio__content-staff-card german'>
                       <img src="https://i.imgur.com/J9HY5Hk.jpg" alt="German Riesco | Arquitecto" />
                       <div className='estudio__content-staff-card-detail'>
                             <div className='estudio__content-staff-card-detail detail'>
@@ -58,7 +58,7 @@ function Estudio() {
                       </div>
                   </div>
                   <div className='estudio__content-staff-card'>
-                      <img src="https://i.imgur.com/fyezM5C.jpg" alt="Marina Navarro | Arquitecto" className='imagen-estudio' />
+                      <img src="https://i.imgur.com/QWeUvZK.jpg" alt="Marina Navarro | Arquitecto" className='imagen-estudio' />
                       <div className='estudio__content-staff-card-detail'>
                             <div className='estudio__content-staff-card-detail'>
                                   <h2>Catalina Riesco</h2>
