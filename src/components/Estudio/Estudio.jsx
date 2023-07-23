@@ -43,6 +43,7 @@ function Estudio() {
                                   <h4>Arquitecta</h4>
                                   <p>Arquitecto UBA - 2020</p>
                                   <p>Docente ayudante - Catedra Diseño UBA</p>
+                                  <p>Curso Iluminación aplicada a la arquitectura - FADU UBA</p>
                             </div>
                       </div>
                   </div>

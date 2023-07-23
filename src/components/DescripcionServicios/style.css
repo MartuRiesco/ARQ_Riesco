@@ -104,11 +104,11 @@
     }
 
     .titulo-servicio { 
-        font-size: 10px;
+        font-size: 15px;
         margin: 0 0 5px 0;
     }
     .moreinfo{
-        font-size: 7px;
+        font-size: 11px;
     }
 
     .boton-servicios {
@@ -116,11 +116,11 @@
         
     }
     .descripcion-servicio{
-font-size: 7px;
+font-size: 11px;
     }
     .item-info{
        
-        width: 85%;
+        width: 90%;
     }
    
     
