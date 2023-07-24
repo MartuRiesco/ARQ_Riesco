@@ -29,7 +29,7 @@ function Estudio() {
                                   <p>Arquitecto UBA - 1993</p>
                                   <p>Egresado del Colegio Nacional de Buenos Aires - 1986</p>
                                   <p>Cursos Iguzzini Ancona, Italia - 2008</p>
-                                  <p>Dictado de curso de introducción a la iluminación Universidad de Paleromo - 2007</p>
+                                  <p>Dictado de curso de introducción a la iluminación Universidad de Palermo - 2007</p>
                                   <p>Lighting Designer - 1999</p>
                                   <p>LAC - Phillips - Osram - 1998-99</p>
                             </div>
